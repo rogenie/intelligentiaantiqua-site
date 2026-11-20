@@ -1,0 +1,51 @@
+---
+import Base from '../layouts/Base.astro';
+import Breadcrumbs from '../components/Breadcrumbs.astro';
+import { publishingStatement, site } from '../data/site';
+import { buildGraph } from '../lib/schema';
+import { formatDate } from '../lib/format';
+
+const crumbs = [
+  { label: 'Home', href: '/' },
+  { label: 'Editorial policy', href: '/editorial-policy/' },
+];
+const updated = new Date(`${site.policiesUpdated}T00:00:00.000Z`);
+const description = 'What a guide is allowed to say, how it is checked, and how to ask for a correction.';
+---
+<Base title={`Editorial policy · ${site.name}`} description={description} graph={buildGraph({ crumbs })}>
+  <Breadcrumbs items={crumbs} />
+  <header class="page-header">
+    <p class="kicker">Rules</p>
+    <h1>Editorial policy</h1>
+    <p class="lede">Beginners deserve a high standard. Jobs, money, privacy, and safety are not a place for a cute guess.</p>
+    <p class="meta">Updated <time datetime={site.policiesUpdated}>{formatDate(updated)}</time></p>
+  </header>
+  <div class="prose">
+    <h2 id="how-we-publish">How a guide is published</h2>
+    <p>{publishingStatement}</p>
+    <p>
+      The quality gate is a script, <code>npm run check:articles</code>, plus the site build. It blocks a merge when a guide is missing a featured image, two diagrams, question headings, key takeaways, or citations. It cannot tell whether a sentence fairly represents its source. That judgment is a separate fact-check against the linked pages. We do not claim a named person re-reads every merge.
+    </p>
+    <h2>What a factual claim needs</h2>
+    <p>
+      A factual sentence links to a primary source: a standards body, a statute or regulator, an official company document about that company’s own product, or a scientific review such as the International AI Safety Report. A news article can point us to a document. It is not enough on its own.
+    </p>
+    <p>We do not invent statistics, quotations, or named victims. If a report gives a number, we attribute the number to that report and say what it measured.</p>
+    <h2>Voice</h2>
+    <p>
+      Calm on the site. Short sentences. Jargon goes to the <a href="/glossary/">glossary</a> or is defined in the sentence. We do not use fake urgency. We do not tell you that you must buy anything.
+    </p>
+    <h2>Debates</h2>
+    <p>
+      When a careful source says experts disagree, the page says experts disagree. We do not flatten that into a prediction, and we do not mock either side.
+    </p>
+    <h2>Corrections</h2>
+    <p>
+      If a sentence is wrong, write through the <a href="/contact/">contact page</a>. We log the change on the <a href="/corrections/">corrections page</a> and update the guide’s date.
+    </p>
+    <h2>Independence</h2>
+    <p>
+      No AI lab pays for a guide. There are no affiliate links today. A future product, if we sell one, will be disclosed on the page that mentions it. {site.name} is a {site.company} company.
+    </p>
+  </div>
+</Base>

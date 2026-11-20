@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="450" viewBox="0 0 800 450">
+  <rect width="800" height="450" fill="#f4efe6"/>
+  <rect x="24" y="24" width="752" height="402" fill="none" stroke="#241e18" stroke-width="2"/>
+  <rect x="70" y="90" width="70" height="140" rx="28" fill="none" stroke="#241e18" stroke-width="3"/>
+  <path d="M90 230 H120" stroke="#241e18" stroke-width="3"/>
+  <path d="M180 140 C200 120 230 120 250 140 C270 160 270 190 250 210 C230 230 200 230 180 210" fill="none" stroke="#6b3a24" stroke-width="3"/>
+  <path d="M300 140 C320 120 350 120 370 140 C390 160 390 190 370 210 C350 230 320 230 300 210" fill="none" stroke="#1d4a38" stroke-width="3"/>
+  <text x="175" y="270" fill="#6b3a24" font-family="Palatino, Georgia, serif" font-size="18">Copy</text>
+  <text x="295" y="270" fill="#1d4a38" font-family="Palatino, Georgia, serif" font-size="18">Saved number</text>
+  <text x="48" y="340" fill="#1c1612" font-family="Palatino, Georgia, serif" font-size="30">A familiar voice is not a verification.</text>
+  <text x="48" y="384" fill="#4a433c" font-family="Palatino, Georgia, serif" font-size="22">Hang up. Call the number you already had.</text>
+</svg>

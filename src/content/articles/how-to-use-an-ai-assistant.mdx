@@ -1,0 +1,132 @@
+---
+title: "How to use an AI assistant safely"
+description: "What to leave out of a ChatGPT-style chat, what the training setting does, and how to check a reply."
+slug: how-to-use-an-ai-assistant
+pillar: using-assistants
+tags:
+  - beginners
+  - assistants
+  - privacy
+publishDate: 2026-11-20
+updatedDate: 2026-11-20
+author: Intelligentia Antiqua Research Desk
+readingLevel: beginner
+featuredImage: "/images/articles/how-to-use-an-ai-assistant.svg"
+featuredImageAlt: "A desk scene with a chat window, a crossed-out password, and an arrow from the reply to a separate open document."
+featuredImageWidth: 800
+featuredImageHeight: 450
+keyTakeaways:
+  - "On personal ChatGPT Free, Plus, and Pro, model training on your chats is on until you turn it off."
+  - "Business, Enterprise, and Edu workspaces are not used to train OpenAI’s models by default."
+  - "A reply can be fluent and false. Check any claim you might act on in a source that is not the chat."
+sources:
+  - title: "Data controls in ChatGPT"
+    url: "https://help.openai.com/en/articles/7730893-data-controls-in-chatgpt"
+    publisher: "OpenAI Help Center"
+    accessed: "2026-11-20"
+  - title: "How your data is used to improve model performance"
+    url: "https://help.openai.com/en/articles/5722486-how-your-data-is-used-to-improve-model-performance"
+    publisher: "OpenAI Help Center"
+    accessed: "2026-11-20"
+  - title: "How ChatGPT and our language models are developed with your privacy in mind"
+    url: "https://openai.com/index/how-chatgpt-protects-privacy/"
+    publisher: "OpenAI"
+    accessed: "2026-11-20"
+  - title: "Artificial Intelligence Risk Management Framework: Generative Artificial Intelligence Profile"
+    url: "https://doi.org/10.6028/NIST.AI.600-1"
+    publisher: "National Institute of Standards and Technology"
+    accessed: "2026-11-20"
+  - title: "International AI Safety Report 2026"
+    url: "https://internationalaisafetyreport.org/sites/default/files/2026-02/international-ai-safety-report-2026.pdf"
+    publisher: "International AI Safety Report"
+    accessed: "2026-11-20"
+  - title: "Guidelines for secure AI system development"
+    url: "https://www.ncsc.gov.uk/collection/guidelines-secure-ai-system-development"
+    publisher: "UK National Cyber Security Centre"
+    accessed: "2026-11-20"
+faq:
+  - question: "Does turning off model training delete the chat?"
+    answer: "No. OpenAI says turning off Improve the model for everyone does not delete or hide saved chats. History stays unless you delete it yourself."
+  - question: "Is a temporary chat used for training?"
+    answer: "OpenAI says temporary chats are not used to improve its models. They may be kept for up to 30 days for safety, and then deleted."
+howTo:
+  name: "How to use a ChatGPT-style assistant without treating it as a source"
+  description: "Leave sensitive text out, set the training control for your plan, and check any claim you might act on."
+  steps:
+    - name: "Leave secrets out of the box"
+      text: "Do not paste passwords, account numbers, medical records, or someone else’s private messages."
+    - name: "Set the training control for your plan"
+      text: "On a personal Free, Plus, or Pro account, open Settings, then Data controls, and turn off Improve the model for everyone if you do not want new chats used to train models. Business, Enterprise, and Edu are off by default."
+    - name: "Check the reply somewhere else"
+      text: "If you might act on a sentence, open a primary source and compare. Keep the claim only if that source supports it."
+---
+
+import Figure from '../../components/Figure.astro';
+
+The box is useful. It is also a draft machine, and the memory policy is yours to set. If you do not set it, the company already chose.
+
+People paste a contract, a school email, a password, a medical note. Then they treat the paragraph that comes back as if someone had checked it. Nobody had.
+
+Two habits. Keep private text out. Check the reply against a page that is not the reply. The settings below are ChatGPT’s, from <a href="https://help.openai.com/en/articles/7730893-data-controls-in-chatgpt">OpenAI’s data-controls article</a>. Another product will word the switch differently. Believe that product’s own page, not a guess.
+
+## What should you leave out of the chat?
+
+Leave out anything you would not want a stranger to read later: passwords, account numbers, medical records, and someone else’s private messages.
+
+That is a user habit, and it matches a builder’s rule. The <a href="https://www.ncsc.gov.uk/collection/guidelines-secure-ai-system-development">UK National Cyber Security Centre</a> tells organisations that build AI systems to make them work without revealing sensitive data to unauthorised parties. You are not the builder. You still choose what enters the box.
+
+<a href="https://openai.com/index/how-chatgpt-protects-privacy/">OpenAI’s privacy note</a> says the same thing from the company side: do not share sensitive information you would not want used or reviewed. <a href="https://doi.org/10.6028/NIST.AI.600-1">NIST’s Generative AI Profile</a> lists data privacy as a generative-AI risk, including leakage of health, biometric, location, and other sensitive data.
+
+A harmless question is still fine. “Explain this public form in plain English” is a different act from pasting the form after you have filled in your bank details.
+
+<Figure
+  src="/diagrams/assistant-leave-out.svg"
+  width={520}
+  height={300}
+  alt="Two lists: questions that are safe to ask on the left, and passwords, medical records, and other people’s messages crossed out on the right."
+  caption="Ask about public material. Do not paste the secret that would hurt you if it were repeated."
+/>
+
+## What does ChatGPT do with the conversation?
+
+On a personal Free, Plus, or Pro account, OpenAI says chats may be used to improve its models until you turn that setting off. Business, Enterprise, and Edu workspaces are not used for training by default.
+
+The control is named “Improve the model for everyone.” <a href="https://help.openai.com/en/articles/7730893-data-controls-in-chatgpt">OpenAI’s help page</a> says it is on by default for those personal plans. On the web, open your account menu, then Settings, then Data controls, then turn the switch off and confirm. On a phone, the same switch is under Settings, then Data controls. Turning it off does not delete the chat history. Saved chats stay saved.
+
+<a href="https://help.openai.com/en/articles/5722486-how-your-data-is-used-to-improve-model-performance">The companion article</a> says that after you opt out, new conversations are not used to improve the models. If you later tap thumbs-up or thumbs-down, OpenAI says the conversation tied to that feedback may still be used. A temporary chat is a separate choice: it is not used to improve the models, it does not appear in history, and it may be kept for up to 30 days for safety.
+
+Plans change. If your screen does not match this paragraph, believe the help page over this one, and write to us if we have gone stale. The <a href="/corrections/">corrections page</a> is there for that.
+
+## How do you check a reply before you use it?
+
+Read the reply as a draft, then open a source that did not write it, and keep a claim only when that source supports it.
+
+<a href="https://doi.org/10.6028/NIST.AI.600-1">NIST</a> says confabulation is what happens when a generative system confidently states content that is wrong. Large language models predict the next word. A likely sentence is not a checked sentence. The <a href="https://internationalaisafetyreport.org/sites/default/files/2026-02/international-ai-safety-report-2026.pdf">International AI Safety Report 2026</a> says current systems sometimes fabricate information, produce flawed code, and give misleading advice, and that today’s methods do not bring the failure rate down to what many high-stakes settings need. The report’s name for trusting the output too quickly is <a href="/glossary/#automation-bias">automation bias</a>.
+
+Use this order:
+
+1. Leave secrets out of the box.
+2. Set the training control for your plan, using the help page above.
+3. If you might act on a sentence, open a primary source and compare. A legal, medical, or money decision needs a qualified person and the original document.
+
+<Figure
+  src="/diagrams/assistant-check-the-reply.svg"
+  width={520}
+  height={280}
+  alt="Three steps in a row: a chat reply, an arrow to a separate source document, and a fork labeled keep or discard."
+  caption="The reply is step one. A source outside the chat is step two. Acting is optional, and it comes last."
+/>
+
+The assistant can still draft a packing list, rewrite a sentence you wrote, or walk you through a public page in plainer words. That is a good use of your time. The limit is the claim you would be sorry to get wrong. That one stays in your hands.
+
+## What should you read next?
+
+Read the privacy hub next if you want the same settings without the how-to steps, or go back to the definition if the word “model” is still fuzzy.
+
+<p class="next-step"><a href="/pillars/privacy-and-data/">Next: privacy and data</a></p>
+
+The ordered path is on <a href="/start-here/">Start here</a>. What the system is, before any of these habits, is <a href="/articles/what-is-ai/">What is AI, in plain English?</a>
+
+## A note on advice
+
+This page is general education, not professional advice. It is not legal, medical, or financial advice, and it is not a recommendation to use any product. Read the <a href="/disclaimer/">full disclaimer</a>.

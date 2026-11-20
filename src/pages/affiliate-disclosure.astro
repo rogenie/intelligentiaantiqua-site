@@ -1,0 +1,31 @@
+---
+import Base from '../layouts/Base.astro';
+import Breadcrumbs from '../components/Breadcrumbs.astro';
+import { site } from '../data/site';
+import { buildGraph } from '../lib/schema';
+
+const crumbs = [
+  { label: 'Home', href: '/' },
+  { label: 'Affiliate disclosure', href: '/affiliate-disclosure/' },
+];
+const description = 'Intelligentia Antiqua does not use affiliate links today. This page says what will happen if that changes.';
+---
+<Base title={`Affiliate disclosure · ${site.name}`} description={description} graph={buildGraph({ crumbs })}>
+  <Breadcrumbs items={crumbs} />
+  <header class="page-header">
+    <p class="kicker">Money</p>
+    <h1>Affiliate disclosure</h1>
+    <p class="lede">No affiliate links. If that changes, you will see it before you click, not after.</p>
+  </header>
+  <div class="prose">
+    <p>
+      An affiliate link would pay {site.name} if a reader bought something after clicking. We do not use any. Guides do not require a purchase.
+    </p>
+    <p>
+      If we add one, this page will name the program first, and the guide will say so beside the link. A fee would not change the rule that a factual claim needs a primary source.
+    </p>
+    <p>
+      We also do not sell our own product yet. If we do, that page will say we have a financial interest, and it will say that {site.name} is a {site.company} company.
+    </p>
+  </div>
+</Base>

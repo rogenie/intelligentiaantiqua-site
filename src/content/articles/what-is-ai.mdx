@@ -1,0 +1,119 @@
+---
+title: "What is AI, in plain English?"
+description: "The OECD definition of an AI system, what a model is, and why a fluent answer can still be false."
+slug: what-is-ai
+pillar: ai-basics
+tags:
+  - beginners
+  - definitions
+publishDate: 2026-11-20
+updatedDate: 2026-11-20
+author: Intelligentia Antiqua Research Desk
+readingLevel: beginner
+featuredImage: "/images/articles/what-is-ai.svg"
+featuredImageAlt: "A parchment card showing an arrow from a short question into a simple box labeled model, then out to a written answer."
+featuredImageWidth: 800
+featuredImageHeight: 450
+keyTakeaways:
+  - "An AI system is a machine that turns an input into an output, such as a prediction, a piece of content, or a decision."
+  - "A chatbot is a system: a model, plus the chat window and the other pieces around it."
+  - "A fluent answer can be false. NIST calls that confabulation, because these models predict the next word."
+sources:
+  - title: "OECD AI Principles"
+    url: "https://oecd.ai/en/ai-principles"
+    publisher: "OECD.AI"
+    accessed: "2026-11-20"
+  - title: "Artificial Intelligence Risk Management Framework: Generative Artificial Intelligence Profile"
+    url: "https://doi.org/10.6028/NIST.AI.600-1"
+    publisher: "National Institute of Standards and Technology"
+    accessed: "2026-11-20"
+  - title: "International AI Safety Report 2026"
+    url: "https://internationalaisafetyreport.org/sites/default/files/2026-02/international-ai-safety-report-2026.pdf"
+    publisher: "International AI Safety Report"
+    accessed: "2026-11-20"
+  - title: "AI Risk Management Framework"
+    url: "https://www.nist.gov/itl/ai-risk-management-framework"
+    publisher: "National Institute of Standards and Technology"
+    accessed: "2026-11-20"
+faq:
+  - question: "Is a chatbot a person?"
+    answer: "No. The OECD definition calls an AI system machine-based. It produces outputs. It is not a human speaker."
+  - question: "Does a confident tone mean the answer was checked?"
+    answer: "No. NIST says generative systems can confidently present content that is erroneous or false. That failure is called confabulation."
+howTo:
+  name: "How to read an AI answer for the first time"
+  description: "A beginner sequence for treating a chatbot reply as a draft instead of a source."
+  steps:
+    - name: "Name the input and the output"
+      text: "Notice what you typed, and notice that the reply is an output from a machine-based system, not a person who looked the fact up."
+    - name: "Check one claim in a primary source"
+      text: "Pick the sentence you might act on and open a document that is not the chatbot, such as an official definition or a report."
+---
+
+import Figure from '../../components/Figure.astro';
+
+You typed a question. The box answered in a voice that has never been embarrassed.
+
+That polish is the pitch. A person who writes that cleanly has usually looked something up. This machine produced a likely sentence. Likely is not checked.
+
+The definition worth keeping is the <a href="https://oecd.ai/en/ai-principles">OECD’s</a>: a machine-based system that turns an input into an output. Your judgment stays yours. The paragraph does not get to spend it.
+
+## What is an AI system, in one sentence?
+
+An AI system is a machine-based system that, for a goal you stated or one implied by the task, infers from an input how to produce an output such as a prediction, a piece of content, a recommendation, or a decision.
+
+That sentence is the <a href="https://oecd.ai/en/ai-principles">OECD’s</a>, from the AI Principles updated in May 2024. The principles were first adopted in 2019. The OECD says the European Union, the United States, the United Nations, and others use this definition in laws and guidance. Systems differ in how independently they act, and in how much they change after they are deployed.
+
+A spam filter is in this family. So is a map that guesses the next turn. So is the chat window on your phone. They are not the same tool. They share the shape: input in, output out, no person required in the middle.
+
+<Figure
+  src="/diagrams/ai-input-model-output.svg"
+  width={520}
+  height={280}
+  alt="Three boxes in a row: a question as input, a box labeled model, and outputs named prediction, text, image, and decision."
+  caption="The OECD shape: an input goes in, and an output comes out. The output can be a prediction, content, a recommendation, or a decision."
+/>
+
+## What is the difference between a model and a chatbot?
+
+A model is the program that does the transformation, and a chatbot is that model plus the screen, the filters, and the other parts wrapped around it.
+
+The <a href="https://internationalaisafetyreport.org/sites/default/files/2026-02/international-ai-safety-report-2026.pdf">International AI Safety Report 2026</a> puts it that way in its glossary. A model processes inputs to predict, classify, or generate. Most models today learn from examples rather than following a list of rules a programmer wrote by hand. The report calls the larger package a system.
+
+It also separates two scopes. Narrow AI does one job, such as playing chess or ranking search results. General-purpose AI can take on a variety of tasks. The assistant people meet first is the general-purpose kind. A <a href="/glossary/#large-language-model">large language model</a> is one model in that group: trained on a lot of text, used to generate, translate, or summarise language.
+
+None of that makes the system a colleague. The OECD’s word is machine-based. If the reply says “I think,” that is a costume, not a person.
+
+## Why can the answer sound sure and still be wrong?
+
+Because these models are built to produce a likely next word, and a likely sentence can be a false one, stated as if it had been checked.
+
+<a href="https://doi.org/10.6028/NIST.AI.600-1">NIST’s Generative AI Profile</a> calls that confabulation: confidently presented content that is erroneous or false. The everyday word is hallucination. NIST notes that “hallucination” can make a machine sound human, which is a risk of its own. The mechanical point is plainer. Large language models predict the next token or word. That can land on a true sentence. It can also land on a sentence that is factually wrong or that contradicts something the same reply said earlier.
+
+The safety report says the same thing from the user side. Current general-purpose systems sometimes fabricate information, write flawed code, and give misleading advice. Methods exist that reduce how often this happens. The report says they do not yet reach the level many high-stakes settings need.
+
+So the tone is not a receipt. A calm paragraph is not a citation. Confidence is free. Proof is a second document.
+
+NIST’s separate <a href="https://www.nist.gov/itl/ai-risk-management-framework">AI Risk Management Framework</a>, released on 26 January 2023, is voluntary guidance for organisations that design or use these systems. It exists because the outputs can affect people, and because trust has to be built on purpose. It is not a promise that any particular chat reply is true.
+
+<Figure
+  src="/diagrams/ai-confident-versus-checked.svg"
+  width={520}
+  height={300}
+  alt="Two columns: a confident chatbot sentence on the left, and the same claim with a line pointing to a separate source document on the right."
+  caption="Confidence is a property of the sentence. A check is a second document. NIST’s point is that readers can believe the first because it sounds sure."
+/>
+
+If you might act on a sentence, open a source that is not the chatbot. The <a href="/glossary/">glossary</a> on this site is a short list of words we have tied to a document. It is not a substitute for the document.
+
+## What should you read next?
+
+Read the scam page next, because a fluent fake is not only a wrong answer in a chat box. It can be a voice on the phone.
+
+<p class="next-step"><a href="/articles/ai-scams-voice-clones-and-deepfakes/">Next: voice clones and deepfakes</a></p>
+
+The path, including how to use an assistant, is on <a href="/start-here/">Start here</a>.
+
+## A note on advice
+
+This page is general education, not professional advice. It is not legal, medical, or financial advice, and it is not a recommendation to use any product. Read the <a href="/disclaimer/">full disclaimer</a>.

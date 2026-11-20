@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="520" height="300" viewBox="0 0 520 300">
+  <rect width="520" height="300" fill="#fbf7f0"/>
+  <path d="M40 90 C70 70 110 70 140 90 C170 110 170 150 140 170 C110 190 70 190 40 170" fill="none" stroke="#241e18" stroke-width="3"/>
+  <text x="40" y="220" font-family="Georgia, serif" font-size="16" fill="#1c1612">Sounds familiar</text>
+  <path d="M220 90 C250 70 290 70 320 90 C350 110 350 150 320 170 C290 190 250 190 220 170" fill="none" stroke="#6b3a24" stroke-width="3"/>
+  <text x="230" y="220" font-family="Georgia, serif" font-size="16" fill="#6b3a24">May be a copy</text>
+  <text x="24" y="270" fill="#4a433c" font-family="Georgia, serif" font-size="15">A cited study: listeners took clones for the real speaker 80% of the time.</text>
+</svg>

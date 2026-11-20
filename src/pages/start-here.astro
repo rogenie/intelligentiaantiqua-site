@@ -1,0 +1,65 @@
+---
+import Base from '../layouts/Base.astro';
+import Breadcrumbs from '../components/Breadcrumbs.astro';
+import { site } from '../data/site';
+import { buildGraph } from '../lib/schema';
+
+const crumbs = [
+  { label: 'Home', href: '/' },
+  { label: 'Start here', href: '/start-here/' },
+];
+const description = 'A short path through AI for a complete beginner: the idea, the scam, the tool, then the debates.';
+---
+<Base title={`Start here · ${site.name}`} description={description} graph={buildGraph({ crumbs })}>
+  <Breadcrumbs items={crumbs} />
+  <header class="page-header">
+    <p class="kicker">The path</p>
+    <h1>Start here</h1>
+    <p class="lede">Six stops. Take them in order if you are new. Skip ahead if you already know the word and you want the trap.</p>
+  </header>
+  <ol class="path">
+    <li>
+      <span class="path-num">1</span>
+      <div>
+        <h2><a href="/articles/what-is-ai/">What is AI, in plain English?</a></h2>
+        <p>The OECD definition, what a model is, and why a fluent answer can still be false. Hub: <a href="/pillars/ai-basics/">AI Basics</a>.</p>
+      </div>
+    </li>
+    <li>
+      <span class="path-num">2</span>
+      <div>
+        <h2><a href="/articles/ai-scams-voice-clones-and-deepfakes/">Voice clones and deepfakes</a></h2>
+        <p>What the safety report and the FCC actually say, and the habit that does not depend on spotting a fake by ear. Hub: <a href="/pillars/scams-and-deepfakes/">Scams &amp; Deepfakes</a>.</p>
+      </div>
+    </li>
+    <li>
+      <span class="path-num">3</span>
+      <div>
+        <h2><a href="/articles/how-to-use-an-ai-assistant/">How to use an assistant safely</a></h2>
+        <p>What ChatGPT’s own settings say about training, and how to check a reply. Hub: <a href="/pillars/using-assistants/">Using Assistants</a>.</p>
+      </div>
+    </li>
+    <li>
+      <span class="path-num">4</span>
+      <div>
+        <h2><a href="/pillars/privacy-and-data/">Privacy and data</a></h2>
+        <p>The same settings, plus the rule from the UK’s cyber agency: a system should not reveal sensitive data to the wrong party. A full guide is still being written.</p>
+      </div>
+    </li>
+    <li>
+      <span class="path-num">5</span>
+      <div>
+        <h2><a href="/pillars/work-and-money/">Work and money</a></h2>
+        <p>The OECD’s labour-market principle, and the 2026 safety report’s early evidence. No percentage we did not read.</p>
+      </div>
+    </li>
+    <li>
+      <span class="path-num">6</span>
+      <div>
+        <h2><a href="/pillars/safety-debates/">Safety debates</a></h2>
+        <p>AGI, alignment, and loss of control, in the report’s own words. Experts disagree. We do not pick a side the evidence has not settled.</p>
+      </div>
+    </li>
+  </ol>
+  <p>Words you will meet: <a href="/glossary/">the glossary</a>.</p>
+</Base>

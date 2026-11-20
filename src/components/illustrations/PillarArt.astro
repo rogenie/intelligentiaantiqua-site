@@ -1,0 +1,20 @@
+---
+interface Props {
+  id: string;
+  size?: number;
+}
+const { id, size = 72 } = Astro.props;
+const marks: Record<string, string> = {
+  'ai-basics': 'M14 40 H50 M32 18 V46 M20 28 H44',
+  'using-assistants': 'M16 22 H48 V44 H28 L18 52 V44 H16 Z',
+  'privacy-and-data': 'M32 16 L50 24 V36 C50 46 32 52 32 52 C32 52 14 46 14 36 V24 Z',
+  'scams-and-deepfakes': 'M18 40 C18 28 46 28 46 40 M22 24 H42 M24 46 H40',
+  'work-and-money': 'M16 44 H48 M20 44 V28 H30 V44 M34 44 V22 H46 V44',
+  'safety-debates': 'M32 14 L50 46 H14 Z M32 26 V36 M32 40 V42',
+};
+const d = marks[id] ?? marks['ai-basics'];
+---
+<svg width={size} height={size} viewBox="0 0 64 64" aria-hidden="true" focusable="false">
+  <rect x="1" y="1" width="62" height="62" fill="#fbf7f0" stroke="#241e18" stroke-width="2" />
+  <path d={d} fill="none" stroke="#6b3a24" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round" />
+</svg>

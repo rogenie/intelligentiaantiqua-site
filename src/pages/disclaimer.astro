@@ -1,0 +1,29 @@
+---
+import Base from '../layouts/Base.astro';
+import Breadcrumbs from '../components/Breadcrumbs.astro';
+import { site } from '../data/site';
+import { buildGraph } from '../lib/schema';
+
+const crumbs = [
+  { label: 'Home', href: '/' },
+  { label: 'Disclaimer', href: '/disclaimer/' },
+];
+const description = 'These pages are general education. They are not professional, legal, medical, or financial advice.';
+---
+<Base title={`Disclaimer · ${site.name}`} description={description} graph={buildGraph({ crumbs })}>
+  <Breadcrumbs items={crumbs} />
+  <header class="page-header">
+    <p class="kicker">Limits</p>
+    <h1>Disclaimer</h1>
+    <p class="lede">This is education. It is not professional advice, and it will not pretend to be.</p>
+  </header>
+  <div class="prose">
+    <p>
+      Nothing here is legal advice, medical advice, financial advice, or a recommendation to buy, sell, or use a particular product. An AI assistant can state a falsehood with a confident tone. A decision about your health, your money, your legal rights, or your job needs a qualified person and the original documents, not a chatbot and not this website.
+    </p>
+    <p>
+      We link the sources we used. Those pages can change after we read them. The access date on each guide is the day we opened them.
+    </p>
+    <p>{site.name} is a {site.company} company. Reading a page does not create a client relationship.</p>
+  </div>
+</Base>

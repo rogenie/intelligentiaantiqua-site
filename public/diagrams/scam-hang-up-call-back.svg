@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="520" height="280" viewBox="0 0 520 280">
+  <rect width="520" height="280" fill="#fbf7f0"/>
+  <rect x="16" y="60" width="140" height="90" fill="#f8ebe4" stroke="#8a341f"/>
+  <text x="32" y="100" font-family="Georgia, serif" font-size="15" fill="#1c1612">Call asks</text>
+  <text x="32" y="124" font-family="Georgia, serif" font-size="15" fill="#1c1612">for money</text>
+  <path d="M164 105 H190" stroke="#6b3a24" stroke-width="3"/>
+  <rect x="198" y="60" width="120" height="90" fill="#f4efe6" stroke="#241e18"/>
+  <text x="220" y="112" font-family="Georgia, serif" font-size="16" fill="#1c1612">Hang up</text>
+  <path d="M326 105 H352" stroke="#6b3a24" stroke-width="3"/>
+  <rect x="360" y="60" width="140" height="90" fill="#e7efe9" stroke="#1d4a38"/>
+  <text x="376" y="100" font-family="Georgia, serif" font-size="15" fill="#1c1612">Call a number</text>
+  <text x="376" y="124" font-family="Georgia, serif" font-size="15" fill="#1c1612">you already had</text>
+  <text x="16" y="210" fill="#4a433c" font-family="Georgia, serif" font-size="15">The saved contact is the check. The caller's new number is not.</text>
+</svg>

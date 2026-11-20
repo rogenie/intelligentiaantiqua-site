@@ -1,0 +1,50 @@
+---
+import Base from '../layouts/Base.astro';
+import Breadcrumbs from '../components/Breadcrumbs.astro';
+import { buildGraph } from '../lib/schema';
+import { companyLine, publisherLine, publishingStatement, site } from '../data/site';
+import { formatDate } from '../lib/format';
+
+const crumbs = [
+  { label: 'Home', href: '/' },
+  { label: 'About', href: '/about/' },
+];
+const updated = new Date(`${site.policiesUpdated}T00:00:00.000Z`);
+const description = 'Goddess Rogenie founded 9nth Dimension. This desk explains AI from public sources, in her voice, and sells nothing yet.';
+---
+<Base title={`About · ${site.name}`} description={description} graph={buildGraph({ crumbs })}>
+  <Breadcrumbs items={crumbs} />
+  <header class="page-header">
+    <p class="kicker">The desk</p>
+    <h1>About this desk</h1>
+    <p class="lede">Ancient name. Modern nonsense detector. The Latin means “ancient intelligence,” and the standard is simple: show the document, or do not say it.</p>
+    <p>{companyLine}</p>
+    <p class="meta">Updated <time datetime={site.policiesUpdated}>{formatDate(updated)}</time></p>
+  </header>
+  <div class="prose">
+    <h2 id="research-desk">Who runs this</h2>
+    <p>
+      Goddess Rogenie founded {site.company}. Intelligentia Antiqua is one of her companies, and the voice is hers: direct, exact, a little amused by a pitch that will not show its work, and serious about the person reading. Your time, your choices, and your mind are the point.
+    </p>
+    <p>
+      The audience is a complete beginner. A parent. A worker. An owner of a small business. Anyone who wants to understand the tool before trusting it with a decision. Curiosity is welcome here. Condescension is not.
+    </p>
+    <p>
+      The Intelligentia Antiqua Research Desk writes the guides in that voice. The desk is not a law firm, a medical practice, a financial adviser, or a university. Reading a page does not make you a client, and it does not make the desk your expert.
+    </p>
+    <p>{publishingStatement} Goddess Rogenie does not pretend to re-read every merge by hand. The gate is real. A personal signature on every file is not.</p>
+    <p>
+      {publisherLine}. Write to <a href={`mailto:${site.email}`}>{site.email}</a>. Please do not send passwords, medical records, or copies of an ID.
+    </p>
+    <h2 id="funding">How we are funded</h2>
+    <p>
+      No AI company pays for coverage. We do not sell ads on the guides. We do not use affiliate links today. If we add one, the <a href="/affiliate-disclosure/">affiliate disclosure</a> will name the relationship before the link goes live, and the page will say so next to the link.
+    </p>
+    <p>
+      A product may come later. It is not for sale on this site now. If we sell one, the page will say that {site.name} is a {site.company} company, so a card charge is not a surprise. Until then, nothing here asks you to buy.
+    </p>
+    <h2>What we will not do</h2>
+    <p>We will not tell you a chatbot is correct. We will not invent a statistic, a victim, or a quote. We will not hide a correction. We will not sand a disagreement into a slogan because a slogan is easier to share. A polished claim that cannot point at a page does not get repeated here.</p>
+    <p>The <a href="/editorial-policy/">editorial policy</a> is the longer version of those rules. The <a href="/sourcing/">sourcing page</a> lists which documents we trust first.</p>
+  </div>
+</Base>

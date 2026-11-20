@@ -1,0 +1,27 @@
+# Intelligentia Antiqua
+
+> Plain-English AI guides for beginners, in a direct voice. Every factual claim links to a standards body, a regulator, an official product document, or a scientific review. A polished pitch is not a source. This is education, not professional advice. Your time, your choices, and your mind stay yours.
+
+Intelligentia Antiqua is an independent research desk. The name is Latin for “ancient intelligence.” Articles are researched and drafted with automated tools, fact-checked in a second pass against primary sources, and must pass an automated quality gate before publishing. Corrections are welcome at https://intelligentiaantiqua.com/contact/.
+
+## Guides
+
+- [AI scams: voice clones and deepfakes](https://intelligentiaantiqua.com/articles/ai-scams-voice-clones-and-deepfakes/): How voice-clone and deepfake scams show up in the safety report and the FCC’s phone rule, and the check that does not use your ear.
+- [How to use an AI assistant safely](https://intelligentiaantiqua.com/articles/how-to-use-an-ai-assistant/): What to leave out of a ChatGPT-style chat, what the training setting does, and how to check a reply.
+- [What is AI, in plain English?](https://intelligentiaantiqua.com/articles/what-is-ai/): The OECD definition of an AI system, what a model is, and why a fluent answer can still be false.
+
+## Site
+
+- [Start here](https://intelligentiaantiqua.com/start-here/): The beginner path, in order.
+- [Guides](https://intelligentiaantiqua.com/articles/): Every finished guide.
+- [Glossary](https://intelligentiaantiqua.com/glossary/): Short definitions with the source for each word.
+- [Editorial policy](https://intelligentiaantiqua.com/editorial-policy/): What a guide is allowed to say.
+- [Sourcing](https://intelligentiaantiqua.com/sourcing/): Which documents we trust first.
+- [Corrections](https://intelligentiaantiqua.com/corrections/): How to challenge a sentence, and the public log.
+- [Disclaimer](https://intelligentiaantiqua.com/disclaimer/): Education, not professional advice.
+- [About](https://intelligentiaantiqua.com/about/): Intelligentia Antiqua is a 9nth Dimension company.
+
+## Optional
+
+- [Full text summaries](https://intelligentiaantiqua.com/llms-full.txt): key takeaways and sources for each guide.
+

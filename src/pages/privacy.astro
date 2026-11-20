@@ -1,0 +1,41 @@
+---
+import Base from '../layouts/Base.astro';
+import Breadcrumbs from '../components/Breadcrumbs.astro';
+import { site } from '../data/site';
+import { buildGraph } from '../lib/schema';
+import { formatDate } from '../lib/format';
+
+const crumbs = [
+  { label: 'Home', href: '/' },
+  { label: 'Privacy', href: '/privacy/' },
+];
+const updated = new Date(`${site.policiesUpdated}T00:00:00.000Z`);
+const description = 'What this static site collects. No analytics tag, no newsletter form, and no product checkout yet.';
+---
+<Base title={`Privacy · ${site.name}`} description={description} graph={buildGraph({ crumbs })}>
+  <Breadcrumbs items={crumbs} />
+  <header class="page-header">
+    <p class="kicker">Your information</p>
+    <h1>Privacy</h1>
+    <p class="lede">Static pages. No account. No product checkout. We do not get to be vague about that.</p>
+    <p class="meta">Updated <time datetime={site.policiesUpdated}>{formatDate(updated)}</time></p>
+  </header>
+  <div class="prose">
+    <h2 id="pages">What the pages do</h2>
+    <p>
+      Your browser requests HTML, CSS, and images from the host, which is GitHub Pages. We do not add an analytics script. The theme switch stores a light or dark preference in your browser’s local storage. That value stays on your device.
+    </p>
+    <h2 id="email">Email</h2>
+    <p>
+      If you write to <a href={`mailto:${site.email}`}>{site.email}</a>, we receive whatever you put in the message. Do not send passwords, medical records, or copies of an ID. We use the message to answer you or to correct a page.
+    </p>
+    <h2 id="not-collected">What we do not collect here</h2>
+    <p>
+      The note at the end of a guide is a placeholder. It does not submit an address. There is no checkout. If we later add analytics, a newsletter, or a product, this page will name the provider in the same change, before the feature ships.
+    </p>
+    <h2 id="search">Search Console</h2>
+    <p>
+      The owner may verify the site with Google Search Console. That uses a meta tag. It does not add a tracking script to the pages you read.
+    </p>
+  </div>
+</Base>

@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="520" height="280" viewBox="0 0 520 280">
+  <rect width="520" height="280" fill="#fbf7f0"/>
+  <rect x="16" y="80" width="120" height="80" fill="#f4efe6" stroke="#241e18" stroke-width="2"/>
+  <text x="36" y="126" fill="#1c1612" font-family="Georgia, serif" font-size="18">Input</text>
+  <path d="M144 120 H176" stroke="#6b3a24" stroke-width="3"/>
+  <rect x="184" y="70" width="130" height="100" fill="#241e18"/>
+  <text x="214" y="128" fill="#f4efe6" font-family="Georgia, serif" font-size="20">Model</text>
+  <path d="M322 120 H354" stroke="#6b3a24" stroke-width="3"/>
+  <rect x="360" y="36" width="140" height="44" fill="#f4efe6" stroke="#241e18"/>
+  <text x="376" y="64" font-family="Georgia, serif" font-size="16" fill="#1c1612">Prediction</text>
+  <rect x="360" y="90" width="140" height="44" fill="#f4efe6" stroke="#241e18"/>
+  <text x="376" y="118" font-family="Georgia, serif" font-size="16" fill="#1c1612">Text or image</text>
+  <rect x="360" y="144" width="140" height="44" fill="#f4efe6" stroke="#241e18"/>
+  <text x="376" y="172" font-family="Georgia, serif" font-size="16" fill="#1c1612">Decision</text>
+  <text x="16" y="240" fill="#4a433c" font-family="Georgia, serif" font-size="15">OECD shape: input in, an output out.</text>
+</svg>
