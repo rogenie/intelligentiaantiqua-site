@@ -15,6 +15,9 @@ const articles = fs
 const publishing =
   'Articles are researched and drafted with automated tools, fact-checked in a second pass against primary sources, and must pass an automated quality gate before publishing. Corrections are welcome at https://intelligentiaantiqua.com/contact/.';
 
+const siteSource = fs.readFileSync(path.join(root, 'src/data/site.ts'), 'utf8');
+const founder = siteSource.match(/founder:\s*'([^']+)'/)?.[1] ?? 'Creator Rogenie';
+
 const pages = [
   ['Start here', '/start-here/', 'The beginner path, in order.'],
   ['Guides', '/articles/', 'Every finished guide.'],
@@ -31,7 +34,7 @@ const llms = [
   '',
   '> Plain-English AI guides for beginners, in a direct voice. Every factual claim links to a standards body, a regulator, an official product document, or a scientific review. A polished pitch is not a source. This is education, not professional advice. Your time, your choices, and your mind stay yours.',
   '',
-  `Intelligentia Antiqua is an independent research desk. The name is Latin for “ancient intelligence.” ${publishing}`,
+  `${founder} founded 9nth Dimension, which publishes this desk. Intelligentia Antiqua is Latin for “ancient intelligence.” ${publishing}`,
   '',
   '## Guides',
   '',
@@ -52,7 +55,7 @@ const llms = [
 const full = [
   '# Intelligentia Antiqua, full guide summaries',
   '',
-  `> Use these summaries with the linked pages. The pages, not this file, are the source of truth. Updated dates are on each page. ${publishing}`,
+  `> Use these summaries with the linked pages. The pages, not this file, are the source of truth. ${founder} is the founder. Updated dates are on each page. ${publishing}`,
   '',
   ...articles.flatMap((article) => {
     const takeaways = Array.isArray(article.keyTakeaways)

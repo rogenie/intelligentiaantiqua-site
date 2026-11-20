@@ -5,7 +5,7 @@ export const site = {
   cardStatement: '9NTH DIMENSION',
   url: 'https://intelligentiaantiqua.com',
   tagline: 'Your mind. The source in the margin.',
-  founder: 'Goddess Rogenie',
+  founder: 'Creator Rogenie',
   description:
     'Intelligentia Antiqua explains artificial intelligence in plain English for beginners, with a source on every factual claim.',
   email: 'hello@intelligentiaantiqua.com',

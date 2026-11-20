@@ -4,7 +4,7 @@
 
 The gate is mechanical. It cannot tell whether a sentence fairly represents its source, or whether it sounds like the brand. Those are human jobs, listed at the bottom. Personality is in [brand-voice.md](brand-voice.md). File shape is in [style-guide.md](style-guide.md).
 
-The script also fails if `docs/brand-voice.md` is missing, if that file drops the voice rules (bold, exacting, playful, warm, feminine and freedom-loving, and Goddess Rogenie as the founder who sets the voice), or if this page, the style guide, the article template, or the publishing doc stops pointing at it. Future article automation reads that file before it drafts.
+The script also fails if `docs/brand-voice.md` is missing, if that file drops the voice rules (bold, exacting, playful, warm, feminine and freedom-loving, and Creator Rogenie as the founder who sets the voice), or if this page, the style guide, the article template, or the publishing doc stops pointing at it. Future article automation reads that file before it drafts.
 
 ## Automated checks
 

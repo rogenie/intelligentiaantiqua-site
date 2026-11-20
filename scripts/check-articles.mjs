@@ -566,7 +566,7 @@ function checkBrandVoice() {
     'Playful',
     'Warm to the curious',
     'Feminine and freedom-loving',
-    'Goddess Rogenie',
+    'Creator Rogenie',
     'safety',
   ]) {
     if (!voice.includes(bit)) errors.push(`docs/brand-voice.md is missing "${bit}"`);
