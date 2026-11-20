@@ -1,0 +1,40 @@
+---
+import Base from '../layouts/Base.astro';
+import Breadcrumbs from '../components/Breadcrumbs.astro';
+import { site } from '../data/site';
+import { buildGraph } from '../lib/schema';
+
+const crumbs = [
+  { label: 'Home', href: '/' },
+  { label: 'Sourcing', href: '/sourcing/' },
+];
+const description = 'Which documents Intelligentia Antiqua trusts first when it explains AI.';
+---
+<Base title={`Sourcing · ${site.name}`} description={description} graph={buildGraph({ crumbs })}>
+  <Breadcrumbs items={crumbs} />
+  <header class="page-header">
+    <p class="kicker">Evidence</p>
+    <h1>How we choose a source</h1>
+    <p class="lede">A headline can suggest a question. It cannot answer one. We start from the document that actually has authority.</p>
+  </header>
+  <div class="prose">
+    <ol>
+      <li>
+        <strong>Definitions and standards.</strong> The <a href="https://oecd.ai/en/ai-principles">OECD AI Principles</a> for what an AI system is. <a href="https://www.nist.gov/itl/ai-risk-management-framework">NIST’s AI Risk Management Framework</a> and the <a href="https://doi.org/10.6028/NIST.AI.600-1">Generative AI Profile</a> for risk language, including confabulation.
+      </li>
+      <li>
+        <strong>Regulators, for rules that bind people.</strong> For example, the FCC’s 2024 declaratory ruling on AI-generated voices in robocalls: <a href="https://docs.fcc.gov/public/attachments/FCC-24-17A1.pdf">FCC 24-17</a>.
+      </li>
+      <li>
+        <strong>Scientific reviews governments commissioned.</strong> The <a href="https://internationalaisafetyreport.org/sites/default/files/2026-02/international-ai-safety-report-2026.pdf">International AI Safety Report 2026</a>, for capabilities, scams, jobs evidence, and the safety debates.
+      </li>
+      <li>
+        <strong>A company’s own help pages, for that company’s settings.</strong> OpenAI’s data-controls articles, when the sentence is about ChatGPT. We do not treat a vendor blog as a source for a general scientific claim.
+      </li>
+      <li>
+        <strong>Security agencies, for security habits.</strong> The <a href="https://www.ncsc.gov.uk/collection/guidelines-secure-ai-system-development">UK NCSC guidelines for secure AI system development</a>.
+      </li>
+    </ol>
+    <p>We opened each linked page while writing. The access date is on the guide. If a page moves, the <a href="/corrections/">corrections log</a> is where we say so.</p>
+  </div>
+</Base>

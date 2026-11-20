@@ -1,0 +1,28 @@
+---
+import Base from '../layouts/Base.astro';
+import Breadcrumbs from '../components/Breadcrumbs.astro';
+import { site } from '../data/site';
+import { buildGraph } from '../lib/schema';
+
+const crumbs = [
+  { label: 'Home', href: '/' },
+  { label: 'Corrections', href: '/corrections/' },
+];
+const description = 'How to challenge a sentence, and the public log of fixes. The log is empty at launch.';
+---
+<Base title={`Corrections · ${site.name}`} description={description} graph={buildGraph({ crumbs })}>
+  <Breadcrumbs items={crumbs} />
+  <header class="page-header">
+    <p class="kicker">The record</p>
+    <h1>Corrections</h1>
+    <p class="lede">If a sentence does not match its source, say so. We would rather fix the page than defend a mistake.</p>
+  </header>
+  <div class="prose">
+    <p>
+      Write through the <a href="/contact/">contact page</a> or email <a href={`mailto:${site.email}`}>{site.email}</a>. Name the page and the sentence. A link to the document you think we misread is the most useful thing you can send.
+    </p>
+    <p>When we change a factual claim, we update the guide’s date and add a row here.</p>
+    <h2 id="log">Log</h2>
+    <p>No corrections yet. This site launched on 20 November 2026.</p>
+  </div>
+</Base>

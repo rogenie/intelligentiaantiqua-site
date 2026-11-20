@@ -1,0 +1,21 @@
+---
+import Base from '../layouts/Base.astro';
+import { site } from '../data/site';
+const description = 'That page is not on Intelligentia Antiqua. Start with the beginner path or the glossary.';
+---
+<Base title={`Page not found · ${site.name}`} description={description} noindex={true}>
+  <header class="page-header">
+    <p class="kicker">404</p>
+    <h1>That page wandered off.</h1>
+    <p class="lede">The link is old, or the guide is not written yet. Either way, you are not lost. Pick a real page.</p>
+  </header>
+  <div class="actions">
+    <a class="button button-primary" href="/">Go home</a>
+    <a class="button button-secondary" href="/start-here/">Start here</a>
+  </div>
+  <ul>
+    <li><a href="/glossary/">Glossary</a></li>
+    <li><a href="/articles/what-is-ai/">What is AI, in plain English?</a></li>
+    <li><a href="/contact/">Contact the desk</a></li>
+  </ul>
+</Base>

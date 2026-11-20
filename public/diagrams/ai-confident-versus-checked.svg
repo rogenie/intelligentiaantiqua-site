@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="520" height="300" viewBox="0 0 520 300">
+  <rect width="520" height="300" fill="#fbf7f0"/>
+  <rect x="20" y="40" width="200" height="160" fill="#f4efe6" stroke="#241e18" stroke-width="2"/>
+  <text x="36" y="78" font-family="Georgia, serif" font-size="16" fill="#6b3a24">Sounds sure</text>
+  <text x="36" y="120" font-family="Georgia, serif" font-size="15" fill="#1c1612">A fluent sentence</text>
+  <text x="36" y="146" font-family="Georgia, serif" font-size="15" fill="#1c1612">from the chat.</text>
+  <path d="M230 120 H270" stroke="#6b3a24" stroke-width="3"/>
+  <rect x="280" y="40" width="220" height="160" fill="#f4efe6" stroke="#1d4a38" stroke-width="2"/>
+  <text x="296" y="78" font-family="Georgia, serif" font-size="16" fill="#1d4a38">Checked</text>
+  <text x="296" y="120" font-family="Georgia, serif" font-size="15" fill="#1c1612">A separate document</text>
+  <text x="296" y="146" font-family="Georgia, serif" font-size="15" fill="#1c1612">that states the fact.</text>
+  <text x="20" y="250" fill="#4a433c" font-family="Georgia, serif" font-size="15">Confidence is not a citation. NIST calls a confident falsehood confabulation.</text>
+</svg>

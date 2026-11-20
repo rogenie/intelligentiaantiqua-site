@@ -1,0 +1,128 @@
+---
+import { getCollection } from 'astro:content';
+import Base from '../layouts/Base.astro';
+import HeroIllustration from '../components/illustrations/HeroIllustration.astro';
+import PillarArt from '../components/illustrations/PillarArt.astro';
+import NewsletterPlaceholder from '../components/NewsletterPlaceholder.astro';
+import { pillars } from '../data/pillars';
+import { publishingStatement, site } from '../data/site';
+import { buildGraph } from '../lib/schema';
+import { formatDate } from '../lib/format';
+
+const articles = (await getCollection('articles'))
+  .filter((entry) => !entry.data.draft)
+  .sort((a, b) => b.data.updatedDate.valueOf() - a.data.updatedDate.valueOf());
+
+const description = 'Plain-English AI for beginners. Every fact has a source. A polished pitch does not get a free pass.';
+---
+<Base
+  title="Intelligentia Antiqua — Your mind, with the source in the margin"
+  description={description}
+  graph={buildGraph({})}
+>
+  <section class="hero">
+    <div>
+      <p class="kicker">Keep your mind</p>
+      <h1>AI, without the pitch.</h1>
+      <p class="lede">
+        You do not need a computer-science degree. You need the sentence, and the document sitting next to it.
+      </p>
+      <p>
+        {site.name} is Latin for “ancient intelligence.” The name is old on purpose. The subject is new, and the hype is loud, polished, and often empty.
+        We read the definition, the standard, and the scientific review, then say what they say. If a claim cannot survive its source, it does not survive this site.
+      </p>
+      <div class="actions">
+        <a class="button button-primary" href="/start-here/">Start here</a>
+        <a class="button button-secondary" href="/sourcing/">Show me the standard</a>
+      </div>
+    </div>
+    <figure class="hero-art">
+      <HeroIllustration />
+    </figure>
+  </section>
+
+  <section class="trust-row" aria-label="How Intelligentia Antiqua works">
+    <article>
+      <h2>The source, or it did not happen</h2>
+      <p>A fact on this site wears its document. No document, no sentence.</p>
+    </article>
+    <article>
+      <h2>Hype can sit down</h2>
+      <p>A smooth demo is not a proof. A chatbot is not a colleague. A job forecast without a study is a mood.</p>
+    </article>
+    <article>
+      <h2>Disagreement stays visible</h2>
+      <p>When the experts split, we say they split, and we name the report. We do not sand it into a slogan.</p>
+    </article>
+    <article>
+      <h2>A gate, not a vibe</h2>
+      <p>Guides are drafted with tools, checked against sources, and must pass an automated quality gate.</p>
+    </article>
+  </section>
+
+  <section class="section" id="path" aria-labelledby="path-heading">
+    <h2 id="path-heading">Three pages. Then you decide.</h2>
+    <p class="section-intro">Learn the machine, learn the trap, then use the tool without handing it your judgment.</p>
+    <ol class="path">
+      <li>
+        <span class="path-num">1</span>
+        <div>
+          <h3><a href="/articles/what-is-ai/">What is AI, in plain English?</a></h3>
+          <p>A machine that turns an input into an output. Not a person. Not owed your trust.</p>
+        </div>
+      </li>
+      <li>
+        <span class="path-num">2</span>
+        <div>
+          <h3><a href="/articles/ai-scams-voice-clones-and-deepfakes/">Voice clones and deepfakes</a></h3>
+          <p>A familiar voice is a performance. Call back on a number you already had.</p>
+        </div>
+      </li>
+      <li>
+        <span class="path-num">3</span>
+        <div>
+          <h3><a href="/articles/how-to-use-an-ai-assistant/">How to use an assistant safely</a></h3>
+          <p>What to leave out of the box, and how to treat the reply as a draft.</p>
+        </div>
+      </li>
+    </ol>
+    <p><a href="/start-here/">See the full path</a>, including privacy, work, and the safety debates.</p>
+  </section>
+
+  <section class="section" id="topics" aria-labelledby="topics-heading">
+    <h2 id="topics-heading">Six topics</h2>
+    <p class="section-intro">Each hub explains the question in plain language and points at the guides we have finished.</p>
+    <div class="pillar-grid">
+      {pillars.map((pillar) => (
+        <a class="pillar-card" href={`/pillars/${pillar.id}/`}>
+          <PillarArt id={pillar.id} size={72} />
+          <div>
+            <h3>{pillar.title}</h3>
+            <p>{pillar.summary}</p>
+          </div>
+        </a>
+      ))}
+    </div>
+  </section>
+
+  <section class="section" aria-labelledby="latest-heading">
+    <h2 id="latest-heading">Latest guides</h2>
+    <div class="card-grid">
+      {articles.map((article) => (
+        <article class="card">
+          <p class="kicker">{pillars.find((item) => item.id === article.data.pillar)?.title}</p>
+          <h3><a href={`/articles/${article.data.slug}/`}>{article.data.title}</a></h3>
+          <p>{article.data.description}</p>
+          <p class="meta">Updated {formatDate(article.data.updatedDate)}</p>
+        </article>
+      ))}
+    </div>
+  </section>
+
+  <section class="stone-band" id="how-we-publish">
+    <h2>How we publish</h2>
+    <p>{publishingStatement}</p>
+    <p><a href="/editorial-policy/">Read the editorial policy</a></p>
+  </section>
+  <NewsletterPlaceholder />
+</Base>

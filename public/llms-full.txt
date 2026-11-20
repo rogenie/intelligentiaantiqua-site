@@ -1,0 +1,63 @@
+# Intelligentia Antiqua, full guide summaries
+
+> Use these summaries with the linked pages. The pages, not this file, are the source of truth. Updated dates are on each page. Articles are researched and drafted with automated tools, fact-checked in a second pass against primary sources, and must pass an automated quality gate before publishing. Corrections are welcome at https://intelligentiaantiqua.com/contact/.
+
+## AI scams: voice clones and deepfakes
+
+https://intelligentiaantiqua.com/articles/ai-scams-voice-clones-and-deepfakes/
+
+How voice-clone and deepfake scams show up in the safety report and the FCC’s phone rule, and the check that does not use your ear.
+
+Key takeaways:
+
+- A deepfake is audio or video of a person saying or doing something they did not do, or of an event that did not happen.
+- Studies cited by the 2026 safety report found that people often cannot tell a voice clone or a fake video from the real thing.
+- Hang up and call back on a number you already had. Do not pay from the call itself.
+
+Sources:
+
+- International AI Safety Report 2026 (International AI Safety Report): https://internationalaisafetyreport.org/sites/default/files/2026-02/international-ai-safety-report-2026.pdf
+- Declaratory Ruling, FCC 24-17 (Federal Communications Commission): https://docs.fcc.gov/public/attachments/FCC-24-17A1.pdf
+- Internet Crime Complaint Center (Federal Bureau of Investigation): https://www.ic3.gov/
+- ReportFraud (Federal Trade Commission): https://reportfraud.ftc.gov/
+
+## How to use an AI assistant safely
+
+https://intelligentiaantiqua.com/articles/how-to-use-an-ai-assistant/
+
+What to leave out of a ChatGPT-style chat, what the training setting does, and how to check a reply.
+
+Key takeaways:
+
+- On personal ChatGPT Free, Plus, and Pro, model training on your chats is on until you turn it off.
+- Business, Enterprise, and Edu workspaces are not used to train OpenAI’s models by default.
+- A reply can be fluent and false. Check any claim you might act on in a source that is not the chat.
+
+Sources:
+
+- Data controls in ChatGPT (OpenAI Help Center): https://help.openai.com/en/articles/7730893-data-controls-in-chatgpt
+- How your data is used to improve model performance (OpenAI Help Center): https://help.openai.com/en/articles/5722486-how-your-data-is-used-to-improve-model-performance
+- How ChatGPT and our language models are developed with your privacy in mind (OpenAI): https://openai.com/index/how-chatgpt-protects-privacy/
+- Artificial Intelligence Risk Management Framework: Generative Artificial Intelligence Profile (National Institute of Standards and Technology): https://doi.org/10.6028/NIST.AI.600-1
+- International AI Safety Report 2026 (International AI Safety Report): https://internationalaisafetyreport.org/sites/default/files/2026-02/international-ai-safety-report-2026.pdf
+- Guidelines for secure AI system development (UK National Cyber Security Centre): https://www.ncsc.gov.uk/collection/guidelines-secure-ai-system-development
+
+## What is AI, in plain English?
+
+https://intelligentiaantiqua.com/articles/what-is-ai/
+
+The OECD definition of an AI system, what a model is, and why a fluent answer can still be false.
+
+Key takeaways:
+
+- An AI system is a machine that turns an input into an output, such as a prediction, a piece of content, or a decision.
+- A chatbot is a system: a model, plus the chat window and the other pieces around it.
+- A fluent answer can be false. NIST calls that confabulation, because these models predict the next word.
+
+Sources:
+
+- OECD AI Principles (OECD.AI): https://oecd.ai/en/ai-principles
+- Artificial Intelligence Risk Management Framework: Generative Artificial Intelligence Profile (National Institute of Standards and Technology): https://doi.org/10.6028/NIST.AI.600-1
+- International AI Safety Report 2026 (International AI Safety Report): https://internationalaisafetyreport.org/sites/default/files/2026-02/international-ai-safety-report-2026.pdf
+- AI Risk Management Framework (National Institute of Standards and Technology): https://www.nist.gov/itl/ai-risk-management-framework
+

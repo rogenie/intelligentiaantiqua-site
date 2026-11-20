@@ -1,0 +1,67 @@
+---
+import Logo from './Logo.astro';
+import { pillars } from '../data/pillars';
+import { companyLine } from '../data/site';
+const learn = [
+  ['Start here', '/start-here/'],
+  ['Glossary', '/glossary/'],
+  ['Guides', '/articles/'],
+  ['What is AI?', '/articles/what-is-ai/'],
+  ['Use an assistant', '/articles/how-to-use-an-ai-assistant/'],
+  ['Voice-clone scams', '/articles/ai-scams-voice-clones-and-deepfakes/'],
+];
+const policies = [
+  ['About', '/about/'],
+  ['Editorial policy', '/editorial-policy/'],
+  ['Sourcing', '/sourcing/'],
+  ['Corrections', '/corrections/'],
+  ['Disclaimer', '/disclaimer/'],
+  ['Affiliate disclosure', '/affiliate-disclosure/'],
+  ['Privacy', '/privacy/'],
+  ['Contact', '/contact/'],
+];
+---
+<footer class="site-footer">
+  <div class="container footer-grid">
+    <div>
+      <a class="wordmark" href="/">
+        <Logo size={36} />
+        <span class="wordmark-text">Intelligentia <em>Antiqua</em></span>
+      </a>
+      <p>{companyLine}</p>
+      <p>Plain English. A source on every factual claim. Your time, your choices, and your mind stay yours.</p>
+    </div>
+    <div>
+      <h2>Learn</h2>
+      <ul>
+        {learn.map(([label, href]) => (
+          <li><a href={href}>{label}</a></li>
+        ))}
+      </ul>
+    </div>
+    <div>
+      <h2>Topics</h2>
+      <ul>
+        {pillars.map((pillar) => (
+          <li><a href={`/pillars/${pillar.id}/`}>{pillar.title}</a></li>
+        ))}
+      </ul>
+    </div>
+    <div>
+      <h2>The desk</h2>
+      <ul>
+        {policies.map(([label, href]) => (
+          <li><a href={href}>{label}</a></li>
+        ))}
+        <li><a href="/rss.xml">RSS</a></li>
+        <li><a href="/llms.txt">llms.txt</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="container footer-note">
+    <p>
+      Education, not a pitch. An assistant can be wrong. A familiar voice can be a copy.
+      Read the <a href="/disclaimer/">disclaimer</a>.
+    </p>
+  </div>
+</footer>

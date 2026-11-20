@@ -1,0 +1,57 @@
+# Publishing
+
+Articles are researched and drafted with automated tools, fact-checked in a second pass against primary sources, and published only after they pass the automated quality gate. Corrections are welcome on the contact page. A human does not re-read every merge, and the site does not claim that.
+
+```
+research and draft with automated tools
+    -> fact-check pass against primary sources
+        -> CI quality gate
+            -> publish
+                -> GitHub Actions deploys to Pages
+```
+
+## 1. Research the question
+
+Start from what a beginner is actually asking. Prefer a standards body, a regulator, an official product document for that product’s own settings, or a scientific review such as the International AI Safety Report. A headline can suggest the topic. It cannot be the only source. Read [brand-voice.md](brand-voice.md), [style-guide.md](style-guide.md), and [quality-gate.md](quality-gate.md) before writing. The draft should sound like Goddess Rogenie: direct, exact, a little witty, never condescending. Safety steps stay calm.
+
+The first two weeks of topics are in [content-calendar.md](content-calendar.md).
+
+## 2. Draft the file on a branch
+
+Copy [article-template.md](article-template.md) to `src/content/articles/<slug>.md` or `.mdx`.
+
+- One topic. Beginner reading level unless the editor agrees otherwise.
+- Frontmatter matches the template. `slug` matches the filename.
+- Add `public/images/articles/<slug>.svg` (or webp, avif, or png) and set `featuredImage` plus a descriptive `featuredImageAlt`.
+- Add at least two inline diagrams with alt text. Put the answer sentence first, then the picture.
+- Write `##` headings as questions, except the closing “A note on advice.” The first sentence under each question is the answer.
+- If the guide is a procedure, add optional `howTo` steps that match the visible list.
+- At least three real https sources, each linked in the body.
+- Every `##` section has an inline link.
+- End with “not professional advice” and a link to `/disclaimer/`.
+- One call to action: the next page on the start-here path.
+- `draft: true` still has to pass the gate. Use it only when the file is complete and you want it held back from the site.
+
+Do not put the unfinished template itself in `src/content/articles`.
+
+## 3. Open a pull request
+
+Push the branch and open a PR into `main`. Describe which sources you relied on and what a beginner can do after reading.
+
+## 4. CI runs the quality gate
+
+The PR must be green. If the gate fails, fix the file. Do not skip the check.
+
+## 5. Fact-check, then the gate
+
+A second pass checks the draft against the primary sources it cites. Continuous integration then runs the quality gate. A file that fails the gate is not published.
+
+## 6. Publish
+
+After the fact-check and a green quality gate, the guide is published. The deploy build writes an Open Graph PNG from the article title, rewrites `llms.txt` and `llms-full.txt`, adds a short URL at `/<slug>/` that points at `/articles/<slug>/`, and GitHub Actions updates the site. A slug that matches a top-level page such as `about` or `glossary` fails the build instead of replacing that page.
+
+## 7. After publication
+
+If a fact was wrong, follow the corrections policy on the site and add a row to the corrections log in the same pull request as the fix. Update `updatedDate`.
+
+There is no product page in this version. Do not add a checkout, a price, or a ship window until that decision is made.
