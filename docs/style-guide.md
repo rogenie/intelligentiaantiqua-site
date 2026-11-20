@@ -14,7 +14,7 @@ Use this shape for every article:
 4. **The cited fact.** Make the cost of guessing concrete with a source. Do not invent a named victim, a dollar loss, or a countdown.
 5. **What to do.** A checklist or an explanation in short paragraphs. Question headings. The first sentence answers the question.
 6. **Pictures.** A featured image, plus at least two diagrams that teach a fact the prose also states. Original SVG. Descriptive alt text.
-7. **One next step.** The next page on the start-here path. No buy button. There is no product yet.
+7. **One next step.** The next page on the start-here path. A kit mention, if any, is the calm callout that links to the kit page. No checkout button in the guide.
 
 Plain words. Define jargon in the sentence or send the reader to the glossary.
 

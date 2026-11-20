@@ -10,14 +10,14 @@ const crumbs = [
   { label: 'Privacy', href: '/privacy/' },
 ];
 const updated = new Date(`${site.policiesUpdated}T00:00:00.000Z`);
-const description = 'What this static site collects. No analytics tag, no newsletter form, and no product checkout yet.';
+const description = 'Static pages, no analytics tag, and no newsletter form. A Family AI Safety Kit order is paid through Stripe.';
 ---
 <Base title={`Privacy · ${site.name}`} description={description} graph={buildGraph({ crumbs })}>
   <Breadcrumbs items={crumbs} />
   <header class="page-header">
     <p class="kicker">Your information</p>
     <h1>Privacy</h1>
-    <p class="lede">Static pages. No account. No product checkout. We do not get to be vague about that.</p>
+    <p class="lede">Static pages. No account. A kit order is paid on Stripe, and this page says what we receive.</p>
     <p class="meta">Updated <time datetime={site.policiesUpdated}>{formatDate(updated)}</time></p>
   </header>
   <div class="prose">
@@ -29,9 +29,16 @@ const description = 'What this static site collects. No analytics tag, no newsle
     <p>
       If you write to <a href={`mailto:${site.email}`}>{site.email}</a>, we receive whatever you put in the message. Do not send passwords, medical records, or copies of an ID. We use the message to answer you or to correct a page.
     </p>
+    <h2 id="safety-kit-orders">Family AI Safety Kit orders</h2>
+    <p>
+      Payments for the <a href="/safety-kit/">Family AI Safety Kit</a> are processed by Stripe. {site.name} receives the name, email, and shipping address needed to fulfill the order. We use those details to ship the kit and to handle a refund. Card numbers stay with Stripe. Stripe describes that handling in the <a href="https://stripe.com/privacy">Stripe privacy policy</a>.
+    </p>
+    <p>
+      Do not type a password, a code word, or a copy of an ID into a checkout note or an email. A note about new guides is separate from an order, and that signup is not turned on.
+    </p>
     <h2 id="not-collected">What we do not collect here</h2>
     <p>
-      The note at the end of a guide is a placeholder. It does not submit an address. There is no checkout. If we later add analytics, a newsletter, or a product, this page will name the provider in the same change, before the feature ships.
+      The note at the end of a guide is a placeholder. It does not submit an address. We do not run an analytics script. If we later add analytics or a newsletter, this page will name the provider in the same change, before the feature ships.
     </p>
     <h2 id="search">Search Console</h2>
     <p>

@@ -1,0 +1,25 @@
+---
+import { safetyKit, safetyKitDisclosure } from '../data/site';
+
+const amazonUrl = safetyKit.amazonUrl.trim();
+const listed = safetyKit.status === 'amazon' && amazonUrl.startsWith('https://');
+const preorder = safetyKit.status === 'preorder';
+---
+<aside class="safety-kit-cta" aria-label="Family AI Safety Kit">
+  <p>
+    <a href="/articles/ai-scams-voice-clones-and-deepfakes/">The voice-clone guide</a> is the free method: agree on a plan to verify calls and messages.
+    {listed
+      ? ' Intelligentia Antiqua offers a Family AI Safety Kit for people who want the cards and the magnet in the house. It is optional. The cards are a convenience.'
+      : preorder
+        ? ' A Family AI Safety Kit pre-order is optional. The cards are a convenience.'
+        : ' Intelligentia Antiqua is preparing a Family AI Safety Kit for people who want one. It is optional. The cards are a convenience.'}
+  </p>
+  <p>
+    {listed ? (
+      <a href={amazonUrl} rel="sponsored nofollow noopener noreferrer">View on Amazon</a>
+    ) : (
+      <a href="/safety-kit/">{preorder ? 'Family AI Safety Kit pre-order' : 'About the Family AI Safety Kit'}</a>
+    )}
+  </p>
+  <p class="safety-kit-disclosure">{safetyKitDisclosure}</p>
+</aside>
