@@ -1,6 +1,6 @@
 # Intelligentia Antiqua style guide
 
-The personality is [brand-voice.md](brand-voice.md): bold, exacting, playful, warm to the curious, feminine and freedom-loving. Goddess Rogenie sets that voice. This page is the shape a file has to take so the quality gate can check it. Where the two seem to pull apart, the voice stays, and the safety instruction stays calm.
+The personality is [brand-voice.md](brand-voice.md): bold, exacting, playful, warm to the curious, feminine and freedom-loving. Creator Rogenie sets that voice. This page is the shape a file has to take so the quality gate can check it. Where the two seem to pull apart, the voice stays, and the safety instruction stays calm.
 
 ## Voice
 

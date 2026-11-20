@@ -12,7 +12,7 @@ research and draft with automated tools
 
 ## 1. Research the question
 
-Start from what a beginner is actually asking. Prefer a standards body, a regulator, an official product document for that product’s own settings, or a scientific review such as the International AI Safety Report. A headline can suggest the topic. It cannot be the only source. Read [brand-voice.md](brand-voice.md), [style-guide.md](style-guide.md), and [quality-gate.md](quality-gate.md) before writing. The draft should sound like Goddess Rogenie: direct, exact, a little witty, never condescending. Safety steps stay calm.
+Start from what a beginner is actually asking. Prefer a standards body, a regulator, an official product document for that product’s own settings, or a scientific review such as the International AI Safety Report. A headline can suggest the topic. It cannot be the only source. Read [brand-voice.md](brand-voice.md), [style-guide.md](style-guide.md), and [quality-gate.md](quality-gate.md) before writing. The draft should sound like Creator Rogenie: direct, exact, a little witty, never condescending. Safety steps stay calm.
 
 The first two weeks of topics are in [content-calendar.md](content-calendar.md).
 

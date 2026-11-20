@@ -1,6 +1,6 @@
 # Brand voice
 
-Intelligentia Antiqua sounds like its founder, Goddess Rogenie, who built 9nth Dimension. Future articles, hubs, and social drafts follow this page. The mechanical rules (sources, question headings, the quality gate) are in [quality-gate.md](quality-gate.md) and [style-guide.md](style-guide.md). This page is the personality. It does not relax those rules.
+Intelligentia Antiqua sounds like its founder, Creator Rogenie, who built 9nth Dimension. Future articles, hubs, and social drafts follow this page. The mechanical rules (sources, question headings, the quality gate) are in [quality-gate.md](quality-gate.md) and [style-guide.md](style-guide.md). This page is the personality. It does not relax those rules.
 
 The Latin name means “ancient intelligence.” The posture is old and the standard is sharp: your time, your choices, and your mind stay yours.
 
@@ -10,7 +10,7 @@ Write as if you mean it. Confident sentences. No corporate filler (“we are com
 
 Say the thing, then show the document. If a sentence needs three hedges to survive, it is not ready.
 
-“We” is the desk. Do not write as if Goddess Rogenie personally typed the guide or re-read the merge. The publishing statement stays honest: tools draft, a second pass checks the sources, the quality gate must pass.
+“We” is the desk. Do not write as if Creator Rogenie personally typed the guide or re-read the merge. The publishing statement stays honest: tools draft, a second pass checks the sources, the quality gate must pass.
 
 ## Exacting
 
@@ -47,7 +47,7 @@ Banned hype words are listed in [quality-gate.md](quality-gate.md). The gate mat
 
 ## Checklist before a draft is called done
 
-1. Could Goddess Rogenie say this sentence out loud without wincing at the filler?
+1. Could Creator Rogenie say this sentence out loud without wincing at the filler?
 2. Does every fact still have its link, and does the number match?
 3. Did a polished claim get repeated without a document?
 4. Is the reader treated as an equal?
