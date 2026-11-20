@@ -46,6 +46,7 @@ const articles = defineCollection({
     featuredImageAlt: z.string().min(40),
     featuredImageWidth: z.number().int().positive(),
     featuredImageHeight: z.number().int().positive(),
+    safetyKitCta: z.boolean().optional(),
     howTo: z
       .object({
         name: z.string().min(1),

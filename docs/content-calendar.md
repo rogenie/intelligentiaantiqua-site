@@ -1,6 +1,6 @@
 # First two weeks
 
-Voice for every draft: [brand-voice.md](brand-voice.md). Goddess Rogenie’s cadence. Safety steps stay calm. No filler.
+Voice for every draft: [brand-voice.md](brand-voice.md). Creator Rogenie’s cadence. Safety steps stay calm. No filler.
 
 Publishing days are Monday, Wednesday, and Friday. These are plans for the desk, not posts that have gone out. Social drafts stay drafts until RMC approves them. Nothing in this file should be posted, emailed, or scheduled.
 

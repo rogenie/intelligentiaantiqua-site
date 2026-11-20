@@ -24,6 +24,12 @@ const pages = [
   ['Corrections', '/corrections/', 'How to challenge a sentence, and the public log.'],
   ['Disclaimer', '/disclaimer/', 'Education, not professional advice.'],
   ['About', '/about/', 'Intelligentia Antiqua is a 9nth Dimension company.'],
+  [
+    'Family AI Safety Kit',
+    '/safety-kit/',
+    'Four write-in code-word cards, a call-back magnet, six webcam covers, and a setup card. Pre-order, $38.28, free US shipping. The voice-clone guide is the free method. The cards are a convenience.',
+  ],
+  ['Refunds', '/refunds/', 'A Family AI Safety Kit pre-order can be refunded in full anytime before it ships.'],
 ];
 
 const llms = [

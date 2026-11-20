@@ -1,0 +1,100 @@
+---
+import Base from '../layouts/Base.astro';
+import Breadcrumbs from '../components/Breadcrumbs.astro';
+import { buildGraph, safetyKitProduct } from '../lib/schema';
+import { cardStatementNote, companyLine, safetyKit, safetyKitDisclosure, site } from '../data/site';
+import { formatDate } from '../lib/format';
+
+const crumbs = [
+  { label: 'Home', href: '/' },
+  { label: 'Family AI Safety Kit', href: '/safety-kit/' },
+];
+const pageName = 'Family AI Safety Kit';
+const updated = new Date(`${site.policiesUpdated}T00:00:00.000Z`);
+const amazonUrl = safetyKit.amazonUrl.trim();
+const preorderUrl = safetyKit.preorderUrl.trim();
+const listed = safetyKit.status === 'amazon' && amazonUrl.startsWith('https://');
+const preorder = safetyKit.status === 'preorder' && preorderUrl.startsWith('https://');
+const description = preorder
+  ? `Four write-in code-word cards, a call-back magnet, six webcam covers, and a setup card. Pre-order, $${safetyKit.price.toFixed(2)}, free US shipping.`
+  : 'Four write-in code-word cards, a call-back magnet, six webcam covers, and a setup card. It helps a family agree on a plan to verify calls and messages.';
+const product = safetyKitProduct();
+const graph = buildGraph({
+  crumbs,
+  page: { name: pageName, description, path: '/safety-kit/' },
+});
+if (product) graph.push(product);
+const guide = '/articles/ai-scams-voice-clones-and-deepfakes/';
+---
+<Base title={`${pageName} · ${site.name}`} description={description} graph={graph}>
+  <Breadcrumbs items={crumbs} />
+  <header class="page-header">
+    <p class="kicker">{listed ? 'Our product' : preorder ? 'A plan, not a promise' : 'Coming soon'}</p>
+    <h1>{pageName}</h1>
+    <p class="lede">
+      It helps a family agree on a plan to verify calls and messages. The <a href={guide}>voice-clone guide</a> is the free method. The cards are a convenience.
+    </p>
+    <p>{companyLine}</p>
+    <p class="meta">Updated <time datetime={site.policiesUpdated}>{formatDate(updated)}</time></p>
+  </header>
+  <div class="prose">
+    <div class="product-disclosure" id="disclosure" role="note">
+      <p>{safetyKitDisclosure}</p>
+    </div>
+    <p>
+      How we keep that interest separate from the guides is on the <a href="/about/#funding">about page</a> and the <a href="/affiliate-disclosure/">affiliate disclosure</a>.
+    </p>
+
+    <h2 id="contents">What is in the box</h2>
+    <p>The kit contains four things:</p>
+    <ol>
+      <li>4 write-in family code-word wallet cards.</li>
+      <li>A large-print fridge magnet with the call-back steps.</li>
+      <li>6 sliding webcam covers.</li>
+      <li>A setup card with a QR code to this site’s <a href={guide}>voice-clone guide</a>.</li>
+    </ol>
+
+    <h2 id="what-it-is-for">What the kit is for</h2>
+    <p>
+      A family can agree, ahead of time, on how to verify a call or a message. That agreement is the point of the <a href={guide}>voice-clone guide</a>: hang up, and call back on a number you already had. You can do that with no purchase.
+    </p>
+    <p>
+      The cards are blank, so you can write in a code word you choose together. They are a convenience, something to keep in a wallet. The magnet is large print, and it carries those call-back steps where the household can see them. The setup card’s QR code opens the guide on this site. It is not a code that arrives in a text or an email. The six webcam covers are sliding covers you can close over a camera.
+    </p>
+    <p>
+      Write the code word on the card. Do not type it into a website, a chat, or an email.
+    </p>
+
+    <h2 id="availability">{listed ? 'Where the kit is listed' : preorder ? 'Pre-order' : 'Availability'}</h2>
+    {listed ? (
+      <>
+        <p>The kit is listed on Amazon. This page does not show a price.</p>
+        <p>
+          <a href={amazonUrl} rel="sponsored nofollow noopener noreferrer">View on Amazon</a>
+        </p>
+      </>
+    ) : preorder ? (
+      <>
+        <div class="preorder-offer">
+          <a class="button button-primary" href={preorderUrl} rel="noopener noreferrer">Pre-order now: ${safetyKit.price.toFixed(2)}, free US shipping</a>
+          <p>
+            Pre-order: ships within 4-6 weeks. Full refund anytime before it ships; contact us at <a href="/contact/">{site.url}/contact/</a>.
+          </p>
+        </div>
+        <p>{cardStatementNote}</p>
+        <p>Plus sales tax where applicable. Free US shipping. US shipping addresses only. Quantity 1–5.</p>
+        <p>The <a href="/refunds/">refund policy</a> is a full refund anytime before the order ships.</p>
+      </>
+    ) : (
+      <>
+        <p>This kit is coming soon, and it is not yet for sale. This page has no price and no buy link.</p>
+        <p>The waitlist opens soon.</p>
+      </>
+    )}
+
+    <h2 id="a-note-on-advice">A note on advice</h2>
+    <p>
+      This page describes a physical kit. It is general education, not professional advice. Read the <a href="/disclaimer/">disclaimer</a>.
+    </p>
+  </div>
+</Base>

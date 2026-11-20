@@ -70,7 +70,7 @@ GitHub’s own steps: [Managing a custom domain for your GitHub Pages site](http
 - Email: the site names `hello@intelligentiaantiqua.com`. Create that mailbox, or change the address in `src/data/site.ts` and the pages that use it.
 - About page: Intelligentia Antiqua is published by 9nth Dimension. The company name is `company` in `src/data/site.ts`.
 - Newsletter: the placeholder does not collect addresses. Wiring it up is a later project, and it needs a privacy-policy edit first.
-- A product page is not part of this version. Add it only after the product, price, shipping, and ship window are chosen.
+- The Family AI Safety Kit pre-order is `/safety-kit/`. Price, the Stripe link, shipping, and the ship window live in `src/data/site.ts`. Refunds are `/refunds/`.
 
 ## What you still do by hand
 

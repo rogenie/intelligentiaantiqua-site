@@ -108,4 +108,4 @@ howTo:
 
 Do not put a banned hype phrase in the file, even to say you are avoiding it. The gate matches the word itself. The list is in [quality-gate.md](quality-gate.md).
 
-There are no affiliate links today. There is no product page yet. Do not add a buy button.
+There are no affiliate links today. The Family AI Safety Kit is disclosed on its own page. Do not add a checkout button to a guide. A calm mention uses the kit callout, says the guide is the free method, and says the cards are a convenience.

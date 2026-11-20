@@ -12,7 +12,7 @@ research and draft with automated tools
 
 ## 1. Research the question
 
-Start from what a beginner is actually asking. Prefer a standards body, a regulator, an official product document for that product’s own settings, or a scientific review such as the International AI Safety Report. A headline can suggest the topic. It cannot be the only source. Read [brand-voice.md](brand-voice.md), [style-guide.md](style-guide.md), and [quality-gate.md](quality-gate.md) before writing. The draft should sound like Goddess Rogenie: direct, exact, a little witty, never condescending. Safety steps stay calm.
+Start from what a beginner is actually asking. Prefer a standards body, a regulator, an official product document for that product’s own settings, or a scientific review such as the International AI Safety Report. A headline can suggest the topic. It cannot be the only source. Read [brand-voice.md](brand-voice.md), [style-guide.md](style-guide.md), and [quality-gate.md](quality-gate.md) before writing. The draft should sound like Creator Rogenie: direct, exact, a little witty, never condescending. Safety steps stay calm.
 
 The first two weeks of topics are in [content-calendar.md](content-calendar.md).
 
@@ -54,4 +54,4 @@ After the fact-check and a green quality gate, the guide is published. The deplo
 
 If a fact was wrong, follow the corrections policy on the site and add a row to the corrections log in the same pull request as the fix. Update `updatedDate`.
 
-There is no product page in this version. Do not add a checkout, a price, or a ship window until that decision is made.
+The Family AI Safety Kit has its own page at `/safety-kit/`. A guide does not add a checkout button. Price, shipping, the ship window, and the refund live on that page and on `/refunds/`.

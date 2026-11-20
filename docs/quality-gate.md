@@ -4,7 +4,7 @@
 
 The gate is mechanical. It cannot tell whether a sentence fairly represents its source, or whether it sounds like the brand. Those are human jobs, listed at the bottom. Personality is in [brand-voice.md](brand-voice.md). File shape is in [style-guide.md](style-guide.md).
 
-The script also fails if `docs/brand-voice.md` is missing, if that file drops the voice rules (bold, exacting, playful, warm, feminine and freedom-loving, and Goddess Rogenie as the founder who sets the voice), or if this page, the style guide, the article template, or the publishing doc stops pointing at it. Future article automation reads that file before it drafts.
+The script also fails if `docs/brand-voice.md` is missing, if that file drops the voice rules (bold, exacting, playful, warm, feminine and freedom-loving, and Creator Rogenie as the founder who sets the voice), or if this page, the style guide, the article template, or the publishing doc stops pointing at it. Future article automation reads that file before it drafts.
 
 ## Automated checks
 
@@ -29,6 +29,7 @@ The script fails if an article:
 - Reuses another article’s title (case-insensitive) or slug.
 - Links to an internal path or anchor that does not exist. Public files such as `/diagrams/*.svg` and `/og/*.png` count as real targets.
 - Drops the publishing statement. `src/data/site.ts` must contain “must pass an automated quality gate before publishing.” The home page, About, and the editorial policy must render that statement. The footer and the About page must name 9nth Dimension. The pages must not claim a human reviews every merge.
+- Breaks the Family AI Safety Kit facts. While the pre-order link is set, the kit page states the $38.28 price, free US shipping, US addresses only, quantity 1–5, the 4-6 week ship window, a full refund before it ships, and the 9NTH DIMENSION card statement. Product JSON-LD uses PreOrder availability and includes no ratings. The privacy page names Stripe. The footer and the header link the kit, and the footer links refunds. Copy must not say the kit stops, prevents, or guarantees protection against a scam. A guide that sets `safetyKitCta: true` includes the calm callout before the advice note, and that callout links to `/safety-kit/` rather than Stripe. The voice-clone guide keeps that callout.
 
 Drafts in `src/content/articles` are checked too. A draft is “ready but unpublished,” not a scratch file. Keep scraps outside that folder.
 

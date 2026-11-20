@@ -491,6 +491,43 @@ h1 {
 
 .warn-callout strong, .warn-label { color: var(--warn); }
 
+.product-disclosure {
+  background: var(--bronze-bg);
+  border-left: 4px solid var(--gold);
+  padding: 0.95rem 1rem;
+  margin: 0 0 1.2rem;
+}
+
+.product-disclosure p { margin: 0; }
+
+.preorder-offer {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.75rem 1.1rem;
+  margin: 0.4rem 0 1rem;
+}
+
+.preorder-offer .button {
+  flex: 0 1 auto;
+  max-width: 100%;
+  text-align: center;
+  white-space: normal;
+}
+
+.preorder-offer p { margin: 0; flex: 1 1 16rem; }
+
+.safety-kit-cta {
+  margin: 1.6rem 0;
+  padding: 1rem 1.05rem;
+  border: 1px solid var(--line);
+  background: var(--surface);
+}
+
+.safety-kit-cta p { margin: 0.45rem 0; }
+.safety-kit-cta p:first-child { margin-top: 0; }
+.safety-kit-disclosure { color: var(--muted); font-size: 0.98rem; }
+
 .article-grid { display: grid; gap: 1.4rem; }
 .toc { font-family: var(--sans); font-size: 0.95rem; }
 .toc ol { margin: 0.4rem 0 0; padding-left: 1.1rem; }
