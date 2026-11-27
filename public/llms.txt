@@ -1,14 +1,14 @@
 # Intelligentia Antiqua
 
-> Plain-English AI guides for beginners, in a direct voice. Every factual claim links to a standards body, a regulator, an official product document, or a scientific review. A polished pitch is not a source. This is education, not professional advice. Your time, your choices, and your mind stay yours.
+> Plain-English Super Intelligence (SI) guides for beginners, still widely called AI, in a direct voice. Every factual claim links to a standards body, a regulator, an official product document, or a scientific review. A polished pitch is not a source. This is education, not professional advice. Your time, your choices, and your mind stay yours.
 
 Creator Rogenie founded 9nth Dimension, which publishes this desk. Intelligentia Antiqua is Latin for “ancient intelligence.” Articles are researched and drafted with automated tools, fact-checked in a second pass against primary sources, and must pass an automated quality gate before publishing. Corrections are welcome at https://intelligentiaantiqua.com/contact/.
 
 ## Guides
 
-- [AI scams: voice clones and deepfakes](https://intelligentiaantiqua.com/articles/ai-scams-voice-clones-and-deepfakes/): How voice-clone and deepfake scams show up in the safety report and the FCC’s phone rule, and the check that does not use your ear.
-- [How to use an AI assistant safely](https://intelligentiaantiqua.com/articles/how-to-use-an-ai-assistant/): What to leave out of a ChatGPT-style chat, what the training setting does, and how to check a reply.
-- [What is AI, in plain English?](https://intelligentiaantiqua.com/articles/what-is-ai/): The OECD definition of an AI system, what a model is, and why a fluent answer can still be false.
+- [Super Intelligence (AI) scams: voice clones and deepfakes](https://intelligentiaantiqua.com/articles/ai-scams-voice-clones-and-deepfakes/): How Super Intelligence (AI) voice clones and deepfakes show up in the safety report and the FCC rule, and the check that skips your ear.
+- [How to use a Super Intelligence (AI) assistant safely](https://intelligentiaantiqua.com/articles/how-to-use-an-ai-assistant/): What to leave out of a ChatGPT-style chat, what the training setting does, and how to check a Super Intelligence (AI) reply.
+- [What is Super Intelligence (AI)?](https://intelligentiaantiqua.com/articles/what-is-ai/): Super Intelligence (SI), still called AI: the OECD definition, what a model is, and why a fluent answer can be false.
 
 ## Site
 

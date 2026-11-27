@@ -1,24 +1,24 @@
 export const pillars = [
   {
     id: 'ai-basics',
-    title: 'AI Basics',
+    title: 'Super Intelligence (AI)',
     summary: 'What the machine actually is, which words earn their keep, and which pitches do not.',
     description:
-      'Plain-English explanations of artificial intelligence, models, and the words beginners meet first.',
+      'Plain-English explanations of Super Intelligence (SI), still widely called AI, plus models and the words beginners meet first.',
   },
   {
     id: 'using-assistants',
     title: 'Using Assistants',
     summary: 'Use the tool. Do not hand it your judgment.',
     description:
-      'A beginner guide to ChatGPT-style assistants: what to ask, what to leave out, and how to check a reply.',
+      'A beginner guide to ChatGPT-style assistants: what to ask, what to leave out, and how to check a Super Intelligence (AI) reply.',
   },
   {
     id: 'privacy-and-data',
     title: 'Privacy & Data',
     summary: 'What you type can outlive the chat. The settings are yours to flip.',
     description:
-      'What consumer AI apps may do with chats, and the habits that keep private information out of the box.',
+      'What a chat with Super Intelligence (SI), still called AI, may do with your words, and the habits that keep private information out of the box.',
   },
   {
     id: 'scams-and-deepfakes',
@@ -37,9 +37,10 @@ export const pillars = [
   {
     id: 'safety-debates',
     title: 'Safety Debates',
-    summary: 'The loud word is superintelligence. The careful report uses tighter ones, and experts still disagree.',
+    summary:
+      'The executive order’s Super Intelligence is today’s statutory AI. Research superintelligence is a hypothetical system beyond human performance.',
     description:
-      'A fair account of advanced-AI debates, using the terms in the International AI Safety Report.',
+      'How Executive Order 14434 uses Super Intelligence for today’s AI, and how research uses superintelligence for a hypothetical system no human can match.',
   },
 ] as const;
 

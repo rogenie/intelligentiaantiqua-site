@@ -38,7 +38,7 @@ const pages = [
 const llms = [
   '# Intelligentia Antiqua',
   '',
-  '> Plain-English AI guides for beginners, in a direct voice. Every factual claim links to a standards body, a regulator, an official product document, or a scientific review. A polished pitch is not a source. This is education, not professional advice. Your time, your choices, and your mind stay yours.',
+  '> Plain-English Super Intelligence (SI) guides for beginners, still widely called AI, in a direct voice. Every factual claim links to a standards body, a regulator, an official product document, or a scientific review. A polished pitch is not a source. This is education, not professional advice. Your time, your choices, and your mind stay yours.',
   '',
   `${founder} founded 9nth Dimension, which publishes this desk. Intelligentia Antiqua is Latin for “ancient intelligence.” ${publishing}`,
   '',

@@ -88,7 +88,7 @@ def mark(size, dest):
 
 
 PILLARS = {
-    "ai-basics": "AI basics",
+    "ai-basics": "SI basics",
     "using-assistants": "Using assistants",
     "privacy-and-data": "Privacy and data",
     "scams-and-deepfakes": "Scams and deepfakes",
@@ -116,7 +116,7 @@ def articles():
 
 
 def main():
-    card("AI, without the pitch.", "Plain English. Source attached.", OG / "default.png")
+    card("Super Intelligence, without the pitch.", "SI, still widely called AI.", OG / "default.png")
     for title, slug, pillar in articles():
         card(title, pillar, OG / f"{slug}.png")
     public = ROOT / "public"
