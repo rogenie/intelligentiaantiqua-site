@@ -176,6 +176,10 @@ export const glossary: GlossaryTerm[] = [
       { label: 'What is Super Intelligence (AI)?', href: '/articles/what-is-ai/' },
       { label: 'Safety Debates', href: '/pillars/safety-debates/' },
       { label: 'Artificial intelligence', href: '/glossary/#artificial-intelligence' },
+      {
+        label: 'What you should never tell an SI (AI) chatbot',
+        href: '/articles/what-not-to-tell-ai-chatbots/',
+      },
     ],
   },
   {
@@ -185,6 +189,12 @@ export const glossary: GlossaryTerm[] = [
       'The report defines training as the multi-stage process, including pre-training and post-training, by which a model learns from data. During training, the model’s weights are adjusted based on examples so it can recognise patterns and perform tasks.',
     sourceTitle: report,
     sourceUrl: reportUrl,
-    related: [{ label: 'Privacy & Data', href: '/pillars/privacy-and-data/' }],
+    related: [
+      { label: 'Privacy & Data', href: '/pillars/privacy-and-data/' },
+      {
+        label: 'What you should never tell an SI (AI) chatbot',
+        href: '/articles/what-not-to-tell-ai-chatbots/',
+      },
+    ],
   },
 ];

@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="450" viewBox="0 0 800 450">
+  <rect width="800" height="450" fill="#f4efe6"/>
+  <rect x="24" y="24" width="752" height="402" fill="none" stroke="#241e18" stroke-width="2"/>
+  <rect x="48" y="64" width="250" height="210" fill="#fbf7f0" stroke="#241e18" stroke-width="2"/>
+  <text x="68" y="108" fill="#1c1612" font-family="Palatino, Georgia, serif" font-size="22">Photo of a card</text>
+  <text x="68" y="156" fill="#8a341f" font-family="Palatino, Georgia, serif" font-size="28" text-decoration="line-through">ID number</text>
+  <text x="68" y="204" fill="#8a341f" font-family="Palatino, Georgia, serif" font-size="22" text-decoration="line-through">password</text>
+  <text x="68" y="244" fill="#4a433c" font-family="Palatino, Georgia, serif" font-size="18">Keep the photo out.</text>
+  <path d="M318 170 H390" stroke="#6b3a24" stroke-width="3"/>
+  <rect x="400" y="64" width="320" height="100" fill="#fbf7f0" stroke="#241e18" stroke-width="2"/>
+  <text x="420" y="104" fill="#1d4a38" font-family="Palatino, Georgia, serif" font-size="22">Training switch</text>
+  <text x="420" y="140" fill="#4a433c" font-family="Palatino, Georgia, serif" font-size="18">Does not erase the chat.</text>
+  <rect x="400" y="180" width="320" height="94" fill="#fbf7f0" stroke="#241e18" stroke-width="2"/>
+  <text x="420" y="220" fill="#8a341f" font-family="Palatino, Georgia, serif" font-size="22">Delete</text>
+  <text x="420" y="254" fill="#4a433c" font-family="Palatino, Georgia, serif" font-size="18">A separate control.</text>
+  <text x="48" y="360" fill="#1c1612" font-family="Palatino, Georgia, serif" font-size="28">Leave the secret out. Then set the switch.</text>
+</svg>
