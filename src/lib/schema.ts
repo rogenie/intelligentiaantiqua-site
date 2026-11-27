@@ -1,5 +1,5 @@
 import { absoluteUrl, isoDate } from './format';
-import { site } from '../data/site';
+import { safetyKit, site } from '../data/site';
 
 export type Crumb = { label: string; href: string };
 
@@ -25,6 +25,44 @@ export function organization() {
     founder: {
       '@type': 'Person',
       name: site.founder,
+    },
+  };
+}
+
+export function safetyKitProduct() {
+  if (safetyKit.status !== 'preorder') return null;
+  return {
+    '@type': 'Product',
+    name: 'Family AI Safety Kit',
+    description:
+      '4 write-in family code-word wallet cards, a large-print fridge magnet with the call-back steps, 6 sliding webcam covers, and a setup card with a QR code to the site guide. It helps a family agree on a plan to verify calls and messages.',
+    brand: {
+      '@type': 'Brand',
+      name: site.name,
+    },
+    offers: {
+      '@type': 'Offer',
+      price: safetyKit.price.toFixed(2),
+      priceCurrency: safetyKit.currency,
+      availability: 'https://schema.org/PreOrder',
+      url: safetyKit.preorderUrl,
+      eligibleQuantity: {
+        '@type': 'QuantitativeValue',
+        minValue: 1,
+        maxValue: 5,
+      },
+      shippingDetails: {
+        '@type': 'OfferShippingDetails',
+        shippingRate: {
+          '@type': 'MonetaryAmount',
+          value: '0',
+          currency: safetyKit.currency,
+        },
+        shippingDestination: {
+          '@type': 'DefinedRegion',
+          addressCountry: 'US',
+        },
+      },
     },
   };
 }

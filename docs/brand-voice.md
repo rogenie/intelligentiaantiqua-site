@@ -41,7 +41,7 @@ The themes to return to, when they are true to the source: owning your time, you
 - Opening: a real moment, then the point, in her cadence.
 - Middle: short paragraphs, a cited fact, a diagram that teaches the same fact.
 - Safety and money sections: calm, specific, sourced. Wit in the heading is fine. Wit inside the instruction is not, if it blurs the step.
-- Close: one next step on the start-here path. No buy button. There is no product yet.
+- Close: one next step on the start-here path. If a guide mentions the Family AI Safety Kit, the note stays calm, says the guide is the free method, and links the kit page. No checkout button in the guide. The cards are a convenience.
 
 Banned hype words are listed in [quality-gate.md](quality-gate.md). The gate matches the word itself, including inside a negation. Rewrite the line.
 

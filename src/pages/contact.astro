@@ -8,19 +8,25 @@ const crumbs = [
   { label: 'Home', href: '/' },
   { label: 'Contact', href: '/contact/' },
 ];
-const description = 'How to reach the Intelligentia Antiqua desk with a correction or a question.';
+const description = 'Email hello@intelligentiaantiqua.com about a correction, an order, or a refund.';
 ---
 <Base title={`Contact · ${site.name}`} description={description} graph={buildGraph({ crumbs })}>
   <Breadcrumbs items={crumbs} />
   <header class="page-header">
     <p class="kicker">The desk</p>
     <h1>Contact</h1>
-    <p class="lede">Bring a correction. Bring a question about a page. A personal legal, medical, or money problem needs a qualified person, not this desk.</p>
+    <p class="lede">Bring a correction, an order, or a refund. A personal legal, medical, or money problem needs a qualified person, not this desk.</p>
   </header>
   <div class="prose">
     <p>
       Email <a href={`mailto:${site.email}`}>{site.email}</a>. If the mailbox is not open yet, the owner of the site still has to create it. The address is the one this project will use.
     </p>
+    <h2 id="orders">Orders and refunds</h2>
+    <p>
+      For a Family AI Safety Kit order or a refund, email <a href={`mailto:${site.email}`}>{site.email}</a> and include the name and email used at checkout.
+      The <a href="/refunds/">refund policy</a> says a pre-order can be refunded in full before it ships. Do not send a code word.
+    </p>
+    <h2 id="corrections">Corrections</h2>
     <p>
       For a correction, name the URL and the sentence, and include the document you think we should have used. We log factual fixes on the <a href="/corrections/">corrections page</a>.
     </p>

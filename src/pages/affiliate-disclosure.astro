@@ -8,24 +8,24 @@ const crumbs = [
   { label: 'Home', href: '/' },
   { label: 'Affiliate disclosure', href: '/affiliate-disclosure/' },
 ];
-const description = 'Intelligentia Antiqua does not use affiliate links today. This page says what will happen if that changes.';
+const description = 'We sell the Family AI Safety Kit and say so. No affiliate links today. A future affiliate link would be named here first.';
 ---
 <Base title={`Affiliate disclosure · ${site.name}`} description={description} graph={buildGraph({ crumbs })}>
   <Breadcrumbs items={crumbs} />
   <header class="page-header">
     <p class="kicker">Money</p>
     <h1>Affiliate disclosure</h1>
-    <p class="lede">No affiliate links. If that changes, you will see it before you click, not after.</p>
+    <p class="lede">We sell our own kit, and the page says so. There are no affiliate links. If that changes, you will see it before you click.</p>
   </header>
   <div class="prose">
     <p>
       An affiliate link would pay {site.name} if a reader bought something after clicking. We do not use any. Guides do not require a purchase.
     </p>
     <p>
-      If we add one, this page will name the program first, and the guide will say so beside the link. A fee would not change the rule that a factual claim needs a primary source.
+      We sell the <a href="/safety-kit/">Family AI Safety Kit</a>. We have a financial interest in that kit. The kit page says so at the top, states the price, and links the <a href="/refunds/">refund</a>. A guide that mentions the kit says so in the same view. The <a href="/articles/ai-scams-voice-clones-and-deepfakes/">voice-clone guide</a> is the free method. The cards are a convenience. {site.name} is a {site.company} company, so a card charge can show as {site.cardStatement}.
     </p>
     <p>
-      We also do not sell our own product yet. If we do, that page will say we have a financial interest, and it will say that {site.name} is a {site.company} company.
+      If we add an affiliate link, this page will name the program first, and the guide will say so beside the link. A fee would not change the rule that a factual claim needs a primary source.
     </p>
   </div>
 </Base>

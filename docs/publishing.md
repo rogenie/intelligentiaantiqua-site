@@ -54,4 +54,4 @@ After the fact-check and a green quality gate, the guide is published. The deplo
 
 If a fact was wrong, follow the corrections policy on the site and add a row to the corrections log in the same pull request as the fix. Update `updatedDate`.
 
-There is no product page in this version. Do not add a checkout, a price, or a ship window until that decision is made.
+The Family AI Safety Kit has its own page at `/safety-kit/`. A guide does not add a checkout button. Price, shipping, the ship window, and the refund live on that page and on `/refunds/`.
