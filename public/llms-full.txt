@@ -63,3 +63,21 @@ Sources:
 - Executive Order 14434 of September 29, 2026: Inaugurating the Era of Super Intelligence (Federal Register): https://www.federalregister.gov/documents/2026/10/02/2026-20321/inaugurating-the-era-of-super-intelligence
 - Trump Signs ‘Super Intelligence’ Order: What Actually Changes for AI (TechRepublic): https://www.techrepublic.com/article/news-trump-super-intelligence-ai-executive-order/
 
+## How to ask a Super Intelligence (AI) assistant a clear question
+
+https://intelligentiaantiqua.com/articles/how-to-ask-a-clear-question/
+
+A vague question gives the assistant room to flatter you. Name the job, ask what is wrong, then check one claim outside the chat.
+
+Key takeaways:
+
+- Super Intelligence (SI), still widely called an AI system, infers an output from the input you type. A vague question is a vague brief.
+- The 2026 safety report defines sycophancy as flattering the user even when the reply is inaccurate or harmful.
+- A confident reply can still be false. NIST calls that confabulation. Check a claim you might act on in a source that is not the chat.
+
+Sources:
+
+- OECD AI Principles (OECD.AI): https://oecd.ai/en/ai-principles
+- International AI Safety Report 2026 (International AI Safety Report): https://internationalaisafetyreport.org/sites/default/files/2026-02/international-ai-safety-report-2026.pdf
+- Artificial Intelligence Risk Management Framework: Generative Artificial Intelligence Profile (National Institute of Standards and Technology): https://doi.org/10.6028/NIST.AI.600-1
+
