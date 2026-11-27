@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="450" viewBox="0 0 800 450">
+  <rect width="800" height="450" fill="#f4efe6"/>
+  <rect x="24" y="24" width="752" height="402" fill="none" stroke="#241e18" stroke-width="2"/>
+  <text x="56" y="78" fill="#6b3a24" font-family="Palatino, Georgia, serif" font-size="20">Three different claims</text>
+  <rect x="56" y="110" width="210" height="160" fill="#fbf7f0" stroke="#241e18" stroke-width="2"/>
+  <text x="72" y="160" fill="#1c1612" font-family="Palatino, Georgia, serif" font-size="18">The order’s SI</text>
+  <text x="72" y="196" fill="#4a433c" font-family="Palatino, Georgia, serif" font-size="16">Today’s statutory</text>
+  <text x="72" y="222" fill="#4a433c" font-family="Palatino, Georgia, serif" font-size="16">category.</text>
+  <rect x="292" y="110" width="210" height="160" fill="#fbf7f0" stroke="#241e18" stroke-width="2"/>
+  <text x="308" y="160" fill="#1c1612" font-family="Palatino, Georgia, serif" font-size="18">Research word</text>
+  <text x="308" y="196" fill="#4a433c" font-family="Palatino, Georgia, serif" font-size="16">A hypothetical</text>
+  <text x="308" y="222" fill="#4a433c" font-family="Palatino, Georgia, serif" font-size="16">beyond-human level.</text>
+  <rect x="528" y="110" width="210" height="160" fill="#fbf7f0" stroke="#1d4a38" stroke-width="2"/>
+  <text x="544" y="160" fill="#1c1612" font-family="Palatino, Georgia, serif" font-size="18">Alignment</text>
+  <text x="544" y="196" fill="#4a433c" font-family="Palatino, Georgia, serif" font-size="16">A propensity.</text>
+  <text x="544" y="222" fill="#4a433c" font-family="Palatino, Georgia, serif" font-size="16">The problem is open.</text>
+  <text x="56" y="340" fill="#1c1612" font-family="Palatino, Georgia, serif" font-size="26">Do not glue the words together.</text>
+  <text x="56" y="382" fill="#4a433c" font-family="Palatino, Georgia, serif" font-size="18">The report says experts still disagree.</text>
+</svg>

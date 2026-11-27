@@ -81,3 +81,23 @@ Sources:
 - International AI Safety Report 2026 (International AI Safety Report): https://internationalaisafetyreport.org/sites/default/files/2026-02/international-ai-safety-report-2026.pdf
 - Artificial Intelligence Risk Management Framework: Generative Artificial Intelligence Profile (National Institute of Standards and Technology): https://doi.org/10.6028/NIST.AI.600-1
 
+## What does alignment mean for Super Intelligence (AI)?
+
+https://intelligentiaantiqua.com/articles/what-alignment-means/
+
+The 2026 safety report defines alignment as using capabilities in line with human intentions. It also says the problem is still open.
+
+Key takeaways:
+
+- The 2026 safety report defines alignment as the propensity to use capabilities in line with human intentions, values, or norms.
+- The same report says alignment remains an open scientific problem, and that experts disagree about loss of control.
+- The executive order’s Super Intelligence is today’s statutory AI. Research superintelligence is a hypothetical level a DeepMind paper says has not been achieved.
+
+Sources:
+
+- International AI Safety Report 2026 (International AI Safety Report): https://internationalaisafetyreport.org/sites/default/files/2026-02/international-ai-safety-report-2026.pdf
+- Executive Order 14434 of September 29, 2026: Inaugurating the Era of Super Intelligence (Federal Register): https://www.federalregister.gov/documents/2026/10/02/2026-20321/inaugurating-the-era-of-super-intelligence
+- Position: Levels of AGI for Operationalizing Progress on the Path to AGI (arXiv): https://arxiv.org/abs/2311.02462
+- AI Risk Management Framework (National Institute of Standards and Technology): https://www.nist.gov/itl/ai-risk-management-framework
+- OECD AI Principles (OECD.AI): https://oecd.ai/en/ai-principles
+

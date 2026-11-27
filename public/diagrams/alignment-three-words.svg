@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="520" height="280" viewBox="0 0 520 280">
+  <rect width="520" height="280" fill="#fbf7f0"/>
+  <rect x="16" y="48" width="156" height="150" fill="#f4efe6" stroke="#241e18"/>
+  <text x="28" y="84" fill="#6b3a24" font-family="Georgia, serif" font-size="14">Order’s SI</text>
+  <text x="28" y="116" fill="#1c1612" font-family="Georgia, serif" font-size="13">Today’s statutory</text>
+  <text x="28" y="136" fill="#1c1612" font-family="Georgia, serif" font-size="13">AI, renamed for</text>
+  <text x="28" y="156" fill="#1c1612" font-family="Georgia, serif" font-size="13">federal agencies.</text>
+  <rect x="182" y="48" width="156" height="150" fill="#f4efe6" stroke="#241e18"/>
+  <text x="194" y="84" fill="#6b3a24" font-family="Georgia, serif" font-size="14">Research word</text>
+  <text x="194" y="116" fill="#1c1612" font-family="Georgia, serif" font-size="13">Hypothetical.</text>
+  <text x="194" y="136" fill="#1c1612" font-family="Georgia, serif" font-size="13">Beyond any human</text>
+  <text x="194" y="156" fill="#1c1612" font-family="Georgia, serif" font-size="13">on a wide range.</text>
+  <rect x="348" y="48" width="156" height="150" fill="#e7efe9" stroke="#1d4a38"/>
+  <text x="360" y="84" fill="#1d4a38" font-family="Georgia, serif" font-size="14">Alignment</text>
+  <text x="360" y="116" fill="#1c1612" font-family="Georgia, serif" font-size="13">Uses capabilities</text>
+  <text x="360" y="136" fill="#1c1612" font-family="Georgia, serif" font-size="13">in line with human</text>
+  <text x="360" y="156" fill="#1c1612" font-family="Georgia, serif" font-size="13">intentions.</text>
+  <text x="16" y="236" fill="#4a433c" font-family="Georgia, serif" font-size="14">The report says this third problem is still open.</text>
+</svg>
