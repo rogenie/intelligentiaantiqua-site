@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="520" height="280" viewBox="0 0 520 280">
+  <rect width="520" height="280" fill="#fbf7f0"/>
+  <rect x="24" y="36" width="220" height="160" fill="#f4efe6" stroke="#241e18" stroke-width="2"/>
+  <text x="40" y="72" font-family="Georgia, serif" font-size="18" fill="#1d4a38">Training switch</text>
+  <text x="40" y="108" font-family="Georgia, serif" font-size="15" fill="#1c1612">Can stop future training</text>
+  <text x="40" y="136" font-family="Georgia, serif" font-size="15" fill="#1c1612">on new chats.</text>
+  <text x="40" y="170" font-family="Georgia, serif" font-size="15" fill="#8a341f">Does not erase the chat.</text>
+  <rect x="276" y="36" width="220" height="160" fill="#f4efe6" stroke="#241e18" stroke-width="2"/>
+  <text x="292" y="72" font-family="Georgia, serif" font-size="18" fill="#8a341f">Delete</text>
+  <text x="292" y="108" font-family="Georgia, serif" font-size="15" fill="#1c1612">Leaves your history now.</text>
+  <text x="292" y="136" font-family="Georgia, serif" font-size="15" fill="#1c1612">A copy can remain</text>
+  <text x="292" y="164" font-family="Georgia, serif" font-size="15" fill="#1c1612">on the company's clock.</text>
+  <text x="24" y="236" fill="#4a433c" font-family="Georgia, serif" font-size="15">OpenAI and Google both say the training control is not deletion.</text>
+  <text x="24" y="262" fill="#4a433c" font-family="Georgia, serif" font-size="15">Read that product's page for how long a copy can stay.</text>
+</svg>

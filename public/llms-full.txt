@@ -63,6 +63,39 @@ Sources:
 - Executive Order 14434 of September 29, 2026: Inaugurating the Era of Super Intelligence (Federal Register): https://www.federalregister.gov/documents/2026/10/02/2026-20321/inaugurating-the-era-of-super-intelligence
 - Trump Signs ‘Super Intelligence’ Order: What Actually Changes for AI (TechRepublic): https://www.techrepublic.com/article/news-trump-super-intelligence-ai-executive-order/
 
+## What you should never tell an SI (AI) chatbot
+
+https://intelligentiaantiqua.com/articles/what-not-to-tell-ai-chatbots/
+
+Passwords, ID numbers, health notes, and document photos stay out of an SI (AI) chatbot. Settings differ.
+
+Key takeaways:
+
+- New York's November 9, 2026 consumer alert says not to share Social Security numbers, licenses, passwords, PINs, card details, or health information with a chatbot.
+- On personal ChatGPT Free, Plus, and Pro, model training on chats is on until you turn it off, and turning it off does not delete history.
+- A photo of a document is still the document. Deleting a chat removes it from your view now. The company's page says how long a copy can remain.
+
+Sources:
+
+- Consumer alert: caution against sharing personal information with AI chatbots (New York Department of State): https://dos.ny.gov/news/consumer-alert-caution-against-sharing-personal-information-ai-chatbots
+- Inaugurating the Era of Super Intelligence (Executive Order 14434) (Federal Register): https://www.federalregister.gov/documents/2026/10/02/2026-20321/inaugurating-the-era-of-super-intelligence
+- International AI Safety Report 2026 (International AI Safety Report): https://internationalaisafetyreport.org/sites/default/files/2026-02/international-ai-safety-report-2026.pdf
+- Be Careful What You Tell Your AI Chatbot (Stanford Institute for Human-Centered Artificial Intelligence): https://hai.stanford.edu/news/be-careful-what-you-tell-your-ai-chatbot
+- Data controls in ChatGPT (OpenAI Help Center): https://help.openai.com/en/articles/7730893-data-controls-in-chatgpt
+- How your data is used to improve model performance (OpenAI Help Center): https://help.openai.com/en/articles/5722486-how-your-data-is-used-to-improve-model-performance
+- How ChatGPT and our language models are developed with your privacy in mind (OpenAI): https://openai.com/index/how-chatgpt-protects-privacy/
+- Deleting and archiving chats in ChatGPT (OpenAI Help Center): https://help.openai.com/en/articles/8809935-deleting-and-archiving-chats-in-chatgpt
+- Is my data used for model training? (consumer plans) (Anthropic Privacy Center): https://privacy.claude.com/en/articles/10023580-is-my-data-used-for-model-training
+- How long do you store my data? (Anthropic Privacy Center): https://privacy.claude.com/en/articles/10023548-how-long-do-you-store-my-data
+- How do I change my model improvement privacy settings? (Anthropic Privacy Center): https://privacy.claude.com/en/articles/12109829-how-do-i-change-my-model-improvement-privacy-settings
+- I would like to input sensitive data into my chats with Claude. Who can view my conversations? (Claude Help Center): https://support.claude.com/en/articles/8325621-i-would-like-to-input-sensitive-data-into-my-chats-with-claude-who-can-view-my-conversations
+- Delete or rename a conversation (Claude Help Center): https://support.claude.com/en/articles/8230524-delete-or-rename-a-conversation
+- Is my data used for model training? (commercial products) (Anthropic Privacy Center): https://privacy.claude.com/en/articles/7996868-is-my-data-used-for-model-training
+- Gemini Apps Privacy Hub (Google): https://support.google.com/gemini/answer/13594961?hl=en
+- Manage and delete your history in Gemini Apps (Google): https://support.google.com/gemini/answer/13278892?hl=en
+- Microsoft Copilot for individuals: your activity history (Microsoft): https://support.microsoft.com/en-us/privacy/microsoft-copilot/activity-history
+- Microsoft Copilot for individuals: your privacy controls and choices (Microsoft): https://support.microsoft.com/en-us/privacy/microsoft-copilot/privacy-controls
+
 ## How to ask a Super Intelligence (AI) assistant a clear question
 
 https://intelligentiaantiqua.com/articles/how-to-ask-a-clear-question/
