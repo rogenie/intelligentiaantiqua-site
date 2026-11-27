@@ -42,8 +42,9 @@ export const glossary: GlossaryTerm[] = [
     sourceTitle: oecd,
     sourceUrl: oecdUrl,
     related: [
-      { label: 'What is AI, in plain English?', href: '/articles/what-is-ai/' },
-      { label: 'AI Basics', href: '/pillars/ai-basics/' },
+      { label: 'Super Intelligence (SI)', href: '/glossary/#super-intelligence' },
+      { label: 'What is Super Intelligence (AI)?', href: '/articles/what-is-ai/' },
+      { label: 'Super Intelligence (AI)', href: '/pillars/ai-basics/' },
     ],
   },
   {
@@ -53,7 +54,7 @@ export const glossary: GlossaryTerm[] = [
       'The International AI Safety Report 2026 defines automation bias as the tendency to rely on automated systems, including AI systems, without enough scrutiny of their outputs.',
     sourceTitle: report,
     sourceUrl: reportUrl,
-    related: [{ label: 'How to use an AI assistant safely', href: '/articles/how-to-use-an-ai-assistant/' }],
+    related: [{ label: 'How to use a Super Intelligence (AI) assistant safely', href: '/articles/how-to-use-an-ai-assistant/' }],
   },
   {
     id: 'confabulation',
@@ -62,7 +63,7 @@ export const glossary: GlossaryTerm[] = [
       'NIST’s Generative AI Profile defines confabulation as the production of confidently stated but erroneous or false content. People also call this hallucination or fabrication. NIST notes that those everyday words can make a machine sound human, which is its own risk.',
     sourceTitle: nist,
     sourceUrl: nistUrl,
-    related: [{ label: 'What is AI, in plain English?', href: '/articles/what-is-ai/' }],
+    related: [{ label: 'What is Super Intelligence (AI)?', href: '/articles/what-is-ai/' }],
   },
   {
     id: 'deepfake',
@@ -72,7 +73,7 @@ export const glossary: GlossaryTerm[] = [
     sourceTitle: report,
     sourceUrl: reportUrl,
     related: [
-      { label: 'AI scams: voice clones and deepfakes', href: '/articles/ai-scams-voice-clones-and-deepfakes/' },
+      { label: 'Super Intelligence (AI) scams: voice clones and deepfakes', href: '/articles/ai-scams-voice-clones-and-deepfakes/' },
     ],
   },
   {
@@ -82,7 +83,7 @@ export const glossary: GlossaryTerm[] = [
       'The International AI Safety Report 2026 uses “general-purpose AI” for models or systems that can perform a variety of tasks, rather than being built for one specific function. A chess-only program is the contrast: the report calls that narrow AI.',
     sourceTitle: report,
     sourceUrl: reportUrl,
-    related: [{ label: 'AI Basics', href: '/pillars/ai-basics/' }],
+    related: [{ label: 'Super Intelligence (AI)', href: '/pillars/ai-basics/' }],
   },
   {
     id: 'generative-ai',
@@ -91,7 +92,7 @@ export const glossary: GlossaryTerm[] = [
       'The International AI Safety Report 2026 defines generative AI as AI that can create new content, such as text, images, or audio, by learning patterns from existing data and producing outputs that reflect those patterns.',
     sourceTitle: report,
     sourceUrl: reportUrl,
-    related: [{ label: 'What is AI, in plain English?', href: '/articles/what-is-ai/' }],
+    related: [{ label: 'What is Super Intelligence (AI)?', href: '/articles/what-is-ai/' }],
   },
   {
     id: 'hallucination',
@@ -127,7 +128,7 @@ export const glossary: GlossaryTerm[] = [
       'The International AI Safety Report 2026 defines machine learning as a subset of AI focused on developing algorithms and models that learn from data without being explicitly programmed for each case.',
     sourceTitle: report,
     sourceUrl: reportUrl,
-    related: [{ label: 'AI Basics', href: '/pillars/ai-basics/' }],
+    related: [{ label: 'Super Intelligence (AI)', href: '/pillars/ai-basics/' }],
   },
   {
     id: 'model',
@@ -136,7 +137,7 @@ export const glossary: GlossaryTerm[] = [
       'In the same report, a model is a computer program that processes inputs to perform tasks such as prediction, classification, or generation. Most models today learn from data rather than being written as a list of hand-made rules. A system is the model plus the other pieces around it, such as a chat window.',
     sourceTitle: report,
     sourceUrl: reportUrl,
-    related: [{ label: 'What is AI, in plain English?', href: '/articles/what-is-ai/' }],
+    related: [{ label: 'What is Super Intelligence (AI)?', href: '/articles/what-is-ai/' }],
   },
   {
     id: 'narrow-ai',
@@ -161,7 +162,21 @@ export const glossary: GlossaryTerm[] = [
       'The International AI Safety Report 2026 defines a prompt as an input to an AI system, such as text or an image, that the system processes to generate an output.',
     sourceTitle: report,
     sourceUrl: reportUrl,
-    related: [{ label: 'How to use an AI assistant safely', href: '/articles/how-to-use-an-ai-assistant/' }],
+    related: [{ label: 'How to use a Super Intelligence (AI) assistant safely', href: '/articles/how-to-use-an-ai-assistant/' }],
+  },
+  {
+    id: 'super-intelligence',
+    term: 'Super Intelligence (SI)',
+    definition:
+      'Executive Order 14434, “Inaugurating the Era of Super Intelligence,” was signed on 29 September 2026 and published in the Federal Register on 2 October 2026 at 91 FR 63129. It directs executive departments and agencies, to the maximum extent permitted by law, to use “Super Intelligence” and “SI” in place of “Artificial Intelligence” and “AI” in official correspondence, public communications, websites, reports, policy documents, and other non-statutory documents. For purposes of the order, those terms mean the technologies and systems encompassed by “artificial intelligence” as defined in 15 U.S.C. § 9401(3). That definition governs the order unless a later presidential action or an Act of Congress supersedes it. Section 2 gives the instruction to those agencies. A different research use of a similar word is explained on the Safety Debates page.',
+    sourceTitle: 'Executive Order 14434 of September 29, 2026: Inaugurating the Era of Super Intelligence',
+    sourceUrl:
+      'https://www.federalregister.gov/documents/2026/10/02/2026-20321/inaugurating-the-era-of-super-intelligence',
+    related: [
+      { label: 'What is Super Intelligence (AI)?', href: '/articles/what-is-ai/' },
+      { label: 'Safety Debates', href: '/pillars/safety-debates/' },
+      { label: 'Artificial intelligence', href: '/glossary/#artificial-intelligence' },
+    ],
   },
   {
     id: 'training',

@@ -16,7 +16,7 @@ for (const term of [...glossary].sort((a, b) => a.term.localeCompare(b.term))) {
   list.push(term);
   groups.set(letter, list);
 }
-const description = 'Short definitions of core AI terms, each tied to the OECD, NIST, or the International AI Safety Report.';
+const description = 'Short definitions of Super Intelligence (SI), still widely called AI, each tied to the OECD, NIST, the safety report, or the executive order.';
 const graph = buildGraph({
   crumbs,
   definedTerms: glossary.map((term) => ({

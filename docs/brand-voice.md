@@ -36,6 +36,14 @@ The design stays classical: stone, parchment, serif type. It should also feel el
 
 The themes to return to, when they are true to the source: owning your time, your choices, and your mind. An assistant does not get to spend those for you. A pitch does not get to rush you.
 
+## Terminology
+
+Lead with Super Intelligence (SI). On the first mention on a page, write “Super Intelligence (SI), still widely called AI,” then say SI. Keep AI in titles a searcher would type, as in “What is Super Intelligence (AI)?” Use AI again when the sentence is about a source’s own word, a product name, or a quotation. Do not change URLs or slugs.
+
+The name follows [Executive Order 14434](https://www.federalregister.gov/documents/2026/10/02/2026-20321/inaugurating-the-era-of-super-intelligence), “Inaugurating the Era of Super Intelligence,” signed 29 September 2026 and published in the Federal Register on 2 October 2026 (FR Doc. 2026-20321, 91 FR 63129). The order tells federal executive agencies to use SI instead of AI, to the maximum extent permitted by law, in official non-statutory documents. For the order, SI means the systems already covered by “artificial intelligence” in 15 U.S.C. § 9401(3). The instruction is to those agencies. It does not require private companies to rename products or stop saying AI. [TechRepublic’s account](https://www.techrepublic.com/article/news-trump-super-intelligence-ai-executive-order/) is the secondary source for that private-company limit. Link the order when a page states those facts.
+
+Do not use the order’s term for the research idea. In research, superintelligence (often one word, or “artificial superintelligence”) means a hypothetical system beyond human performance. The order’s SI is the statutory category, the systems already called AI. Say that split on any page about the debate, and cite both the order and a research source. Do not alter a quotation, a source’s title, or a product name to force the new term. The Family AI Safety Kit stays the product name. ChatGPT stays ChatGPT.
+
 ## What a guide is allowed to sound like
 
 - Opening: a real moment, then the point, in her cadence.

@@ -1,6 +1,6 @@
 # Intelligentia Antiqua
 
-Plain-English AI guides for complete beginners. Intelligentia Antiqua is an independent research desk: we explain what standards bodies, regulators, and scientific reviews say, and we link the source on every factual claim.
+Plain-English Super Intelligence (SI) guides for complete beginners, still widely called AI. Intelligentia Antiqua is an independent research desk: we explain what standards bodies, regulators, and scientific reviews say, and we link the source on every factual claim.
 
 The name is Latin for “ancient intelligence.” The site is a static [Astro](https://astro.build) project. Articles are Markdown or MDX files in `src/content/articles`, so a new guide can arrive as a pull request.
 

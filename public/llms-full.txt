@@ -2,11 +2,11 @@
 
 > Use these summaries with the linked pages. The pages, not this file, are the source of truth. Creator Rogenie is the founder. Updated dates are on each page. Articles are researched and drafted with automated tools, fact-checked in a second pass against primary sources, and must pass an automated quality gate before publishing. Corrections are welcome at https://intelligentiaantiqua.com/contact/.
 
-## AI scams: voice clones and deepfakes
+## Super Intelligence (AI) scams: voice clones and deepfakes
 
 https://intelligentiaantiqua.com/articles/ai-scams-voice-clones-and-deepfakes/
 
-How voice-clone and deepfake scams show up in the safety report and the FCC’s phone rule, and the check that does not use your ear.
+How Super Intelligence (AI) voice clones and deepfakes show up in the safety report and the FCC rule, and the check that skips your ear.
 
 Key takeaways:
 
@@ -21,11 +21,11 @@ Sources:
 - Internet Crime Complaint Center (Federal Bureau of Investigation): https://www.ic3.gov/
 - ReportFraud (Federal Trade Commission): https://reportfraud.ftc.gov/
 
-## How to use an AI assistant safely
+## How to use a Super Intelligence (AI) assistant safely
 
 https://intelligentiaantiqua.com/articles/how-to-use-an-ai-assistant/
 
-What to leave out of a ChatGPT-style chat, what the training setting does, and how to check a reply.
+What to leave out of a ChatGPT-style chat, what the training setting does, and how to check a Super Intelligence (AI) reply.
 
 Key takeaways:
 
@@ -42,15 +42,15 @@ Sources:
 - International AI Safety Report 2026 (International AI Safety Report): https://internationalaisafetyreport.org/sites/default/files/2026-02/international-ai-safety-report-2026.pdf
 - Guidelines for secure AI system development (UK National Cyber Security Centre): https://www.ncsc.gov.uk/collection/guidelines-secure-ai-system-development
 
-## What is AI, in plain English?
+## What is Super Intelligence (AI)?
 
 https://intelligentiaantiqua.com/articles/what-is-ai/
 
-The OECD definition of an AI system, what a model is, and why a fluent answer can still be false.
+Super Intelligence (SI), still called AI: the OECD definition, what a model is, and why a fluent answer can be false.
 
 Key takeaways:
 
-- An AI system is a machine that turns an input into an output, such as a prediction, a piece of content, or a decision.
+- Super Intelligence (SI), still widely called an AI system, is a machine that turns an input into an output, such as a prediction, a piece of content, or a decision.
 - A chatbot is a system: a model, plus the chat window and the other pieces around it.
 - A fluent answer can be false. NIST calls that confabulation, because these models predict the next word.
 
@@ -60,4 +60,6 @@ Sources:
 - Artificial Intelligence Risk Management Framework: Generative Artificial Intelligence Profile (National Institute of Standards and Technology): https://doi.org/10.6028/NIST.AI.600-1
 - International AI Safety Report 2026 (International AI Safety Report): https://internationalaisafetyreport.org/sites/default/files/2026-02/international-ai-safety-report-2026.pdf
 - AI Risk Management Framework (National Institute of Standards and Technology): https://www.nist.gov/itl/ai-risk-management-framework
+- Executive Order 14434 of September 29, 2026: Inaugurating the Era of Super Intelligence (Federal Register): https://www.federalregister.gov/documents/2026/10/02/2026-20321/inaugurating-the-era-of-super-intelligence
+- Trump Signs ‘Super Intelligence’ Order: What Actually Changes for AI (TechRepublic): https://www.techrepublic.com/article/news-trump-super-intelligence-ai-executive-order/
 

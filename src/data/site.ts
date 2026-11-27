@@ -7,7 +7,7 @@ export const site = {
   tagline: 'Your mind. The source in the margin.',
   founder: 'Creator Rogenie',
   description:
-    'Intelligentia Antiqua explains artificial intelligence in plain English for beginners, with a source on every factual claim.',
+    'Intelligentia Antiqua explains Super Intelligence (SI), still widely called AI, in plain English for beginners, with a source on every factual claim.',
   email: 'hello@intelligentiaantiqua.com',
   repo: 'https://github.com/rogenie/intelligentiaantiqua-site',
   author: 'Intelligentia Antiqua Research Desk',
